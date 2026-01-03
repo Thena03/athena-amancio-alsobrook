@@ -14,7 +14,7 @@ permalink: /
       <h2 class="text-xl md:text-2xl font-semibold text-teal-600 mb-6">Sport Science · Exercise Physiology · Data</h2>
       <p class="text-gray-700 mb-6">
         I explore human performance and athlete well-being through sport science, research, 
-        and data-driven insights. I’m passionate about turning data into actionable improvements 
+        and data-driven insights. I am passionate about turning data into actionable improvements 
         for athletes.
       </p>
       <div class="hero-buttons flex flex-wrap gap-4">
