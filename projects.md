@@ -27,7 +27,7 @@ permalink: /projects/
       
 <!-- Image -->
 <div>
-        <img src="/assets/images/learnr.jpg" alt="LearnR Coding platform preview"
+        <img src="{{ '/static/learnR.gif' | relative_url }}" alt="LearnR Coding platform preview"
              class="rounded-xl object-cover w-full h-full">
       </div>
 
@@ -195,15 +195,15 @@ permalink: /projects/
   <!-- Contact Icons -->
    <div class="flex justify-center gap-6">
       <a href="mailto:aamancioalsobrook@gmail.com" aria-label="Email">
-        <img src="/assets/icons/mail.svg" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+        <img src="{{ '/static/icons/email.svg' | relative_url }}" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
       </a>
 
   <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" aria-label="LinkedIn">
-        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+        <img src="{{ '/static/icons/linkedin.svg' | relative_url }}" alt="LinkedIn" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
       </a>
 
    <a href="https://github.com/Thena03" target="_blank" aria-label="GitHub">
-        <img src="/assets/icons/github.svg" alt="GitHub" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+        <img src="{{ '/static/icons/github.svg' | relative_url }}" alt="GitHub" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
       </a>
     </div>
 
