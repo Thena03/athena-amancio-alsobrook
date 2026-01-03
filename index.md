@@ -76,7 +76,7 @@ permalink: /
   </div>
 </section>
 
-<!-- ===== TESTIMONIAL / QUOTE BLOCK ===== -->
+<!-- ===== TESTIMONIAL / QUOTE BLOCK
 <section class="section py-16 bg-teal-100">
   <div class="container text-center max-w-3xl mx-auto">
     <blockquote class="text-xl italic text-teal-900 mb-4">
@@ -84,7 +84,7 @@ permalink: /
     </blockquote>
     <p class="font-semibold text-teal-700">– Coach / Collaborator</p>
   </div>
-</section>
+</section> ===== -->
 
 <!-- ===== CALL TO ACTION / CONTACT ===== -->
 <section id="contact" class="section py-16 bg-white">
@@ -92,9 +92,9 @@ permalink: /
     <h3 class="text-3xl font-bold text-teal-800 mb-4">Let’s Connect</h3>
     <p class="text-gray-700 mb-6">Feel free to reach out via email or check out my work online.</p>
     <div class="flex justify-center gap-4 flex-wrap">
-      <a href="mailto:aamancioalsobrook@gmail.com" class="px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition">Email</a>
-      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">LinkedIn</a>
-      <a href="https://github.com/Thena03" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">GitHub</a>
+      <a href="mailto:aamancioalsobrook@gmail.com" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">Email</a>
+      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">LinkedIn</a>
+      <a href="https://github.com/Thena03" target="_blank" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">GitHub</a>
     </div>
   </div>
 </section>
