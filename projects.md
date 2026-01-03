@@ -54,13 +54,13 @@ permalink: /projects/
           </a>
         <a href="https://www.instagram.com/learnrcoding/" target="_blank"
      class="flex items-center gap-2 px-5 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
-    <img src="/static/icons/instagram.svg" alt="Instagram" class="w-5 h-5">
+    <img src="{{ '/static/icons/instagram.svg' | relative_url }}" alt="Instagram" class="w-5 h-5">
     Instagram
   </a>
 
   <a href="https://www.tiktok.com/@learnrcoding" target="_blank"
      class="flex items-center gap-2 px-5 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
-    <img src="/static/icons/tiktok.svg" alt="TikTok" class="w-5 h-5">
+    <img src="{{ '/static/icons/tiktok.svg' | relative_url }}" alt="TikTok" class="w-5 h-5">
     TikTok
   </a>
 </div>
@@ -82,6 +82,10 @@ permalink: /projects/
 
  <!-- Card -->
 <div class="bg-white rounded-xl shadow p-6">
+<div>
+        <img src="{{ '/static/40yard.png' | relative_url }}" alt="40 yard preview"
+             class="rounded-xl object-cover w-full h-full">
+      </div>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           The Sprint to the Draft: Evaluating the 40-yard Dash's Impact on Wide Receiver Draft Selection.
         </h3>
@@ -109,9 +113,13 @@ Developed an interactive R Shiny dashboard to calculate and visualize bilateral 
       </div>
 
   <div class="bg-white rounded-xl shadow p-6">
+  <div>
+        <img src="{{ '/static/thermohuman.png' | relative_url }}" alt="Thermohuman Player Deliverable"
+             class="rounded-xl object-cover w-full h-full">
+      </div>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           Infrared Thermography Player Deliverable
-        </h3>
+        </h3> <br>
         <p class="text-gray-700 mb-4">
 Created a player-facing deliverable translating individual thermal imaging results into clear recovery recommendations. The goal was to empower collegiate football players to take ownership of their recovery through personalized feedback on thermal data and targeted recovery modalities. 
         </p>
