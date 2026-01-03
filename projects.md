@@ -144,7 +144,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
       Social Impact & Data for Good
     </h2>
 
-<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
 
  <!-- Agricultural Project -->
 <div class="bg-white rounded-xl shadow p-6">
