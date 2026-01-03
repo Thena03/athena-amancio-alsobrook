@@ -83,30 +83,28 @@ permalink: /projects/
  <!-- Card -->
 <div class="bg-white rounded-xl shadow p-6">
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
-          40 Yard Dash Project
+          The Sprint to the Draft: Evaluating the 40-yard Dash's Impact on Wide Receiver Draft Selection.
         </h3>
         <p class="text-gray-700 mb-4">
-          Development of dashboards to track training load, recovery, and wellness metrics
-          in a collegiate athletic setting.
+This study analyzed data from the 2015 to 2024 draft classes to investigate whether faster 40-yard dash times meaningfully influence draft outcomes. 
         </p>
         <p class="text-sm text-gray-500 mb-4">
           R · Data Visualization · Sport Science
         </p>
-        <a href="#" class="text-teal-700 font-medium hover:underline">
+        <a href="https://www.linkedin.com/posts/athena-a-alsobrook-133b731b0_nfl-draft-wide-receiver-40-yard-analysis-activity-7322663052972077058-x5Ss?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFLT_cBNIdfZFzE_WfUfUtUrN8IRyWbVfU" class="text-teal-700 font-medium hover:underline">
           View Project →
         </a>
       </div>
 
   <div class="bg-white rounded-xl shadow p-6">
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
-          Shiny App Jump Asymmetry Athlete
+          Shiny App: Jump Asymmetry Analysis in Division I Football Players
         </h3>
         <p class="text-gray-700 mb-4">
-          Analysis of hydration testing and thermography data to support heat mitigation
-          and athlete safety protocols.
+Developed an interactive R Shiny dashboard to calculate and visualize bilateral jump asymmetries for a Division I Football Program using Hawkins Dynamics API. 
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          Applied Sport Science · Athlete Health
+          Applied Sport Science · R (Shiny)
         </p>
       </div>
 
@@ -115,11 +113,10 @@ permalink: /projects/
           Infrared Thermography Player Deliverable
         </h3>
         <p class="text-gray-700 mb-4">
-          Analysis of hydration testing and thermography data to support heat mitigation
-          and athlete safety protocols.
+Created a player-facing deliverable translating individual thermal imaging results into clear recovery recommendations. The goal was to empower collegiate football players to take ownership of their recovery through personalized feedback on thermal data and targeted recovery modalities. 
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          Applied Sport Science · Athlete Health
+          Applied Sport Science · Athlete Health · Infrared Thermography
         </p>
       </div>
 
@@ -140,12 +137,15 @@ permalink: /projects/
  <!-- Agricultural Project -->
 <div class="bg-white rounded-xl shadow p-6">
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
-          Agricultural Data Analysis Platform
+        Rooted in Sustainability: Digital Solutions for Sustainable Agriculture with RuRall
         </h3>
         <p class="text-gray-700 mb-4">
-          Data analysis and visualization work supporting agricultural decision-making
-          and sustainability initiatives.
+ In collaboration with Stella York and the Italian agricultural digital hub, RuRall, we identified bugs in the developing agricultural software company, Sandy, which calculates carbon emissions from European farms to provide sustainability consultations. We supported RuRall’s decision on a potential partnership with the software company to promote sustainable farming in Brescia, and created visualizations that were later featured by the company’s data scientist in a presentation on carbon reduction strategies in Venice, Italy.
         </p>
+                </p>
+        <a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
+          View Project →
+        </a>
         <p class="text-sm text-gray-500 mb-4">
           R · Data Cleaning · Sustainability
         </p>
@@ -158,10 +158,10 @@ permalink: /projects/
         </h3>
         <p class="text-gray-700 mb-4">
           A social impact project focused on improving literacy access through
-          data-informed educational tools.
+          data-informed educational tools using Google's Gemini AI Agent.
         </p>
         <p class="text-sm text-gray-500 mb-4">
-          Education · Social Impact · UX
+          Education · Social Impact · AI
         </p>
       </div>
 
