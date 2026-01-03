@@ -191,9 +191,9 @@ Created a player-facing deliverable translating individual thermal imaging resul
    </div>
   </div>
 
-  <div class="bg-white rounded-xl shadow p-6">
+<div class="bg-white rounded-xl shadow p-6">
 <!-- Image -->
-<div>
+  <div>
         <img src="{{ '/static/excelerate.png' | relative_url }}" alt="Excelerate preview"
              class="rounded-xl object-cover w-full h-full">
       </div> <br>
