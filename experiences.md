@@ -210,5 +210,4 @@ permalink: /experience/
       </a>
     </div>
 
-  </div>
-</section>
+
