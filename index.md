@@ -18,14 +18,14 @@ permalink: /
         for athletes.
       </p>
       <div class="hero-buttons flex flex-wrap gap-4">
-        <a href="/projects" class="px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition">View Projects</a>
-        <a href="/about" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">About Me</a>
+        <a href="/projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">View Projects</a>
+        <a href="/about" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">About Me</a>
       </div>
     </div>
 
   <!-- Hero Image -->
   <div class="hero-image md:w-1/2">
-      <img src="/static/sportathena.jpg" alt="Athena working in sport science or performance setting" class="rounded-xl shadow-lg">
+      <img src="{{ /static/sportathena.jpg  | relative_url }}" alt="Athena working in sport science or performance setting" class="rounded-xl shadow-lg">
     </div>
 
   </div>
@@ -93,7 +93,7 @@ permalink: /
     <p class="text-gray-700 mb-6">Feel free to reach out via email or check out my work online.</p>
     <div class="flex justify-center gap-4 flex-wrap">
       <a href="mailto:aamancioalsobrook@gmail.com" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">Email</a>
-      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">LinkedIn</a>
+      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">LinkedIn</a>
       <a href="https://github.com/Thena03" target="_blank" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">GitHub</a>
     </div>
   </div>
