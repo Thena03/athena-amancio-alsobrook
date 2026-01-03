@@ -29,7 +29,7 @@ permalink: /experience/
         <ul class="list-disc list-inside text-slate-700 space-y-2">
           <li>Supported athlete monitoring and performance data collection in a Power Five football program</li>
           <li>Assisted with hydration testing, thermography, and environmental monitoring</li>
-          <li>Contributed to game-day sport science operations for an AP Top 25 team</li>
+          <li>Contributed to game-day sport science operations for an AP Top 25 and 2025 College Football Playoff Semifinalist team</li>
         </ul>
         <a href="/projects/#sport-science" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
@@ -140,7 +140,7 @@ permalink: /experience/
         <a href="/projects/#pt-volunteer" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
-    </div>
+ </div>
   </div>
 </section>
 
