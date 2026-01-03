@@ -58,7 +58,7 @@ permalink: /about/
   </div>
 </section>
 
-<!-- ===== GALLERY SECTION ===== -->
+<!-- ===== GALLERY SECTION 
 <section class="section py-16 bg-white">
   <div class="container text-center">
     <h3 class="text-3xl font-bold text-slate-900 mb-8">More About Athena</h3>
@@ -69,7 +69,7 @@ permalink: /about/
       <img src="{{ '/static/gallery4.jpg' | relative_url }}" alt="Gallery image 4" class="rounded-lg shadow">
     </div>
   </div>
-</section>
+</section>===== -->
 
 <!-- ===== CALL TO ACTION ===== -->
 <section class="section py-16 bg-white">
