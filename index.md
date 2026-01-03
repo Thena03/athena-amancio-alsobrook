@@ -145,11 +145,11 @@ permalink: /
   <div class="max-w-4xl mx-auto px-6 text-center">
 
    
-   <h3 class="text-3xl font-bold mb-4">
+   <h3 class="text-3xl text-slate-900 font-bold mb-4">
       Let’s Connect
     </h3>
 
-  <p class="text-slate-300 mb-8">
+  <p class="text-slate-900 mb-8">
       Reach out to collaborate, discuss research, or learn more about Athena’s work.
     </p>
 
