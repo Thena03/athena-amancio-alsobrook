@@ -52,11 +52,18 @@ permalink: /projects/
              class="px-5 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
             Visit Website
           </a>
-          <a href="https://github.com/your-repo" target="_blank"
-             class="px-5 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
-            View Code
-          </a>
-        </div>
+        <a href="https://www.instagram.com/learnrcoding/" target="_blank"
+     class="flex items-center gap-2 px-5 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
+    <img src="/static/icons/instagram.svg" alt="Instagram" class="w-5 h-5">
+    Instagram
+  </a>
+
+  <a href="https://www.tiktok.com/@learnrcoding" target="_blank"
+     class="flex items-center gap-2 px-5 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
+    <img src="/assets/icons/tiktok.svg" alt="TikTok" class="w-5 h-5">
+    TikTok
+  </a>
+</div>
       </div>
 
     </div>
