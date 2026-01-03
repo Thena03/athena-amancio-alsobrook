@@ -58,7 +58,7 @@ permalink: /
     <h3 class="text-3xl font-bold text-slate-900 mb-8">Featured Projects</h3>
     <div class="grid md:grid-cols-3 gap-8">
       <div class="card p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
-        <img src="{{ '/static/LearnRlogo.jpg' | relative_url }}" alt="Project 1" class="rounded-lg mb-4">
+        <img src="{{ '/static/LearnRlogo.png' | relative_url }}" alt="Project 1" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">LearnR Coding</h4>
         <p class="text-slate-700">educational platform designed to make learning R programming practical for all coders regardless of skill level.</p>
       </div>
