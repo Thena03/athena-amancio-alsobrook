@@ -136,6 +136,11 @@ Created a player-facing deliverable translating individual thermal imaging resul
 
  <!-- Agricultural Project -->
 <div class="bg-white rounded-xl shadow p-6">
+<!-- Image -->
+<div>
+        <img src="{{ '/static/stellayyo.png' | relative_url }}" alt="RuRall project preview"
+             class="rounded-xl object-cover w-full h-full">
+      </div>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
         Rooted in Sustainability: Digital Solutions for Sustainable Agriculture with RuRall
         </h3>
@@ -153,6 +158,10 @@ Created a player-facing deliverable translating individual thermal imaging resul
 
  <!-- ReadPal -->
 <div class="bg-white rounded-xl shadow p-6">
+       <div>
+        <img src="{{ '/static/Readpal.png' | relative_url }}" alt="Readpal preview"
+             class="rounded-xl object-cover w-full h-full">
+      </div>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           ReadPal
         </h3>
