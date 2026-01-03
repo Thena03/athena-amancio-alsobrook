@@ -36,8 +36,8 @@ permalink: /
       </div>
     </div>
 
-    <!-- Image -->
-    <div class="md:w-1/2">
+  <!-- Image -->
+  <div class="md:w-1/2">
       <img
         src="{{ '/static/sportathena.jpg' | relative_url }}"
         alt="Athena working in sport science"

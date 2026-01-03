@@ -5,11 +5,11 @@ permalink: /about/
 ---
 
 <!-- ===== HERO SECTION ===== -->
-<section class="hero split py-20 bg-white">
-  <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
+<section class="py-24 bg-white">
+  <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
 
    <!-- Text Block -->
-   <div class="hero-text-block md:w-1/2">
+   <div class="md:w-1/2">
       <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">About Athena</h1>
       <p class="text-slate-700 mb-6">
         Athena Amancio-Alsobrook is an exercise physiology student at the University of Miami and sport science enthusiast. 
@@ -23,7 +23,7 @@ permalink: /about/
     </div>
 
   <!-- Hero Image -->
-  <div class="hero-image md:w-1/2">
+  <div class="md:w-1/2">
       <img src="{{ '/static/athenaa.jpg' | relative_url }}" alt="Athena portrait" class="rounded-xl shadow-lg">
     </div>
 
