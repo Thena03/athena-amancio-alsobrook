@@ -188,9 +188,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
         </p>
       </div>
 
-   </div>
-  </div>
-
+ 
 <div class="bg-white rounded-xl shadow p-6">
 <!-- Image -->
   <div>
@@ -213,6 +211,9 @@ Created a player-facing deliverable translating individual thermal imaging resul
         </p>
       
   </div>
+    </div>
+  </div>
+
 </section>
 
 <!-- ===== NEXT STEPS / NAVIGATION ===== -->
