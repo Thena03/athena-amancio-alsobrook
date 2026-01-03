@@ -25,7 +25,7 @@ permalink: /
 
   <!-- Hero Image -->
   <div class="hero-image md:w-1/2">
-      <img src="{{ /static/sportathena.jpg  | relative_url }}" alt="Athena working in sport science or performance setting" class="rounded-xl shadow-lg">
+      <img src="{{ '/static/sportathena.jpg'  | relative_url }}" alt="Athena working in sport science" class="rounded-xl shadow-lg">
     </div>
 
   </div>
