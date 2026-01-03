@@ -202,7 +202,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
  Designed to be a resource for individuals looking to improve their data skills using Excel.
         </p>
                
-<a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
+<a href="https://thena03.github.io/ExcelEd/" class="text-teal-700 font-medium hover:underline">
           View Project →
         </a>
 
