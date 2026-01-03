@@ -155,10 +155,11 @@ Created a player-facing deliverable translating individual thermal imaging resul
         <p class="text-gray-700 mb-4">
  In collaboration with Stella York and the Italian agricultural digital hub, RuRall, we identified bugs in the developing agricultural software company, Sandy, which calculates carbon emissions from European farms to provide sustainability consultations. We supported RuRall’s decision on a potential partnership with the software company to promote sustainable farming in Brescia, and created visualizations that were later featured by the company’s data scientist in a presentation on carbon reduction strategies in Venice, Italy.
         </p>
-                </p>
-        <a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
+               
+<a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
           View Project →
-        </a></p>
+        </a>
+
         <p class="text-sm text-gray-500 mb-4">
           R · Data Cleaning · Sustainability
         </p>
@@ -200,8 +201,8 @@ Created a player-facing deliverable translating individual thermal imaging resul
 
   <!-- Navigation Buttons -->
   <div class="flex justify-center gap-4 mb-10 flex-wrap">
-      <a href="/projects/" class="px-6 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
-        View Projects
+      <a href="/about/" class="px-6 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
+       About Me
       </a>
 
   <a href="/" class="px-6 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
@@ -212,7 +213,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
   <!-- Contact Icons -->
    <div class="flex justify-center gap-6">
       <a href="mailto:aamancioalsobrook@gmail.com" aria-label="Email">
-        <img src="{{ '/static/icons/email.svg' | relative_url }}" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+        <img src="{{ '/static/icons/envelope.svg' | relative_url }}" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
       </a>
 
   <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" aria-label="LinkedIn">
