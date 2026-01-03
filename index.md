@@ -5,68 +5,96 @@ permalink: /
 ---
 
 <!-- ===== HERO SECTION ===== -->
-<section class="hero split">
-  <div class="container hero-grid">
+<section class="hero split py-20">
+  <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
 
   <!-- Text Block -->
-  <div class="hero-text-block">
-      <h1>Hi, I’m Athena.</h1>
-      <h2 class="hero-subtitle">Sport Science · Exercise Physiology · Data</h2>
-
-  \  <p class="hero-text">
+  <div class="hero-text-block md:w-1/2">
+      <h1 class="text-4xl md:text-5xl font-bold text-teal-800 mb-4"> Athena Amancio-Alsobrook.</h1>
+      <h2 class="text-xl md:text-2xl font-semibold text-teal-600 mb-6">Sport Science · Exercise Physiology · Data</h2>
+      <p class="text-gray-700 mb-6">
         I explore human performance and athlete well-being through sport science, research, 
         and data-driven insights. I’m passionate about turning data into actionable improvements 
         for athletes.
       </p>
-
-  <div class="hero-buttons">
-        <a href="/projects" class="btn primary">View Projects</a>
-        <a href="/about" class="btn secondary">About Me</a>
+      <div class="hero-buttons flex flex-wrap gap-4">
+        <a href="/projects" class="px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition">View Projects</a>
+        <a href="/about" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">About Me</a>
       </div>
     </div>
 
   <!-- Hero Image -->
-  <div class="hero-image">
-      <img src="/assets/images/hero.jpg" alt="Athena working in sport science or performance setting">
+  <div class="hero-image md:w-1/2">
+      <img src="/static/sportathena.jpg" alt="Athena working in sport science or performance setting" class="rounded-xl shadow-lg">
     </div>
 
   </div>
 </section>
 
 <!-- ===== AREAS OF FOCUS ===== -->
-<section class="section">
-  <div class="container">
-    <h3>Areas I Focus On</h3>
-
-    <div class="cards minimal">
-      <div class="card minimal">
-        <h4>Sport Science</h4>
+<section class="section py-16 bg-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-teal-800 mb-8">Areas I Focus On</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="card p-6 bg-teal-50 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2 text-teal-700">Sport Science</h4>
         <p>Monitoring and optimizing athlete performance in real-world environments.</p>
       </div>
-
-      <div class="card minimal">
-        <h4>Sports Medicine</h4>
+      <div class="card p-6 bg-teal-50 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2 text-teal-700">Sports Medicine</h4>
         <p>Injury prevention, rehabilitation, and long-term athlete care.</p>
       </div>
-
-      <div class="card minimal">
-        <h4>Data & Research</h4>
+      <div class="card p-6 bg-teal-50 rounded-xl shadow hover:shadow-lg transition">
+        <h4 class="text-xl font-semibold mb-2 text-teal-700">Data & Research</h4>
         <p>Analyzing and visualizing sport and health data to support evidence-based decisions.</p>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ===== CALL TO ACTION / CONTACT ===== -->
-<section id="contact" class="section cta">
-  <div class="container">
-    <h3>Let’s Connect</h3>
-    <p>Feel free to reach out via email or check out my work online.</p>
+<!-- ===== FEATURED PROJECTS ===== -->
+<section class="section py-16 bg-gradient-to-b from-teal-50 to-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-teal-800 mb-8">Featured Projects</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="card p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <img src="/assets/images/project1.jpg" alt="Project 1" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2">Athlete Performance Dashboard</h4>
+        <p>A data visualization tool for monitoring training load and recovery.</p>
+      </div>
+      <div class="card p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <img src="/assets/images/project2.jpg" alt="Project 2" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2">Injury Rehab Tracker</h4>
+        <p>An interactive tracker to manage athlete rehabilitation programs.</p>
+      </div>
+      <div class="card p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
+        <img src="/assets/images/project3.jpg" alt="Project 3" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2">Sports Science Research</h4>
+        <p>Analyzing performance and recovery trends using R and Python.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <div class="contact-links">
-      <a href="mailto:aamancioalsobrook@gmail.com" class="btn primary">Email</a>
-      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="btn secondary">LinkedIn</a>
-      <a href="https://github.com/Thena03" target="_blank" class="btn secondary">GitHub</a>
+<!-- ===== TESTIMONIAL / QUOTE BLOCK ===== -->
+<section class="section py-16 bg-teal-100">
+  <div class="container text-center max-w-3xl mx-auto">
+    <blockquote class="text-xl italic text-teal-900 mb-4">
+      "Athena brings unmatched energy and insight to sport science research, blending data with practical athlete care."
+    </blockquote>
+    <p class="font-semibold text-teal-700">– Coach / Collaborator</p>
+  </div>
+</section>
+
+<!-- ===== CALL TO ACTION / CONTACT ===== -->
+<section id="contact" class="section py-16 bg-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-teal-800 mb-4">Let’s Connect</h3>
+    <p class="text-gray-700 mb-6">Feel free to reach out via email or check out my work online.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="mailto:aamancioalsobrook@gmail.com" class="px-6 py-3 bg-teal-600 text-white rounded-lg font-semibold hover:bg-teal-700 transition">Email</a>
+      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">LinkedIn</a>
+      <a href="https://github.com/Thena03" target="_blank" class="px-6 py-3 bg-yellow-300 text-teal-800 rounded-lg font-semibold hover:bg-yellow-400 transition">GitHub</a>
     </div>
   </div>
 </section>
