@@ -8,7 +8,7 @@ permalink: /
 <section class="hero split py-20">
   <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
 
-    <!-- Text Block -->
+   <!-- Text Block -->
   <div class="hero-text-block md:w-1/2">
       <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Athena Amancio-Alsobrook</h1>
       <h2 class="text-xl md:text-2xl font-semibold text-teal-700 mb-6">Sport Science · Data · Social Impact</h2>
@@ -61,6 +61,10 @@ permalink: /
         <img src="{{ '/static/LearnRlogo.png' | relative_url }}" alt="Project 1" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">LearnR Coding</h4>
         <p class="text-slate-700">educational platform designed to make learning R programming practical for all coders regardless of skill level.</p>
+             <a href="https://learnrcoding.com" target="_blank"
+             class="px-5 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
+            Visit Website
+          </a>
       </div>
       <div class="card p-6 bg-white rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/DAISI.jpg' | relative_url }}" alt="Project 2" class="rounded-lg mb-4">
