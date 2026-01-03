@@ -1,7 +1,7 @@
 ---
 layout: base
 title: About
-permalink: /about
+permalink: /about/
 ---
 
 <section class="section">
