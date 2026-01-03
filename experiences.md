@@ -31,7 +31,7 @@ permalink: /experience/
           <li>Assisted with hydration testing, thermography, and environmental monitoring</li>
           <li>Contributed to game-day sport science operations for an AP Top 25 and 2025 College Football Playoff Semifinalist team</li>
         </ul>
-        <a href="/experience/sport-science" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+        <a href="{{ '/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
  <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
@@ -117,32 +117,69 @@ permalink: /experience/
         <a href="/projects/#asl-teaching" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
-    </div>
+  </div>
   </div>
 </section>
-
 <!-- ===== VOLUNTEERING ===== -->
-<section class="py-16">
+<section class="py-16 bg-slate-50 w-full">
   <div class="max-w-6xl mx-auto px-6">
 
- <h2 class="text-3xl font-semibold text-slate-900 mb-10">Volunteering & Community Engagement</h2>
+  <h2 class="text-3xl font-semibold text-slate-900 mb-10">
+      Volunteering & Community Engagement
+    </h2>
 
-   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
- <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-        <h3 class="text-xl font-semibold text-teal-600">Physical Therapy Clinic Volunteer</h3>
-        <p class="text-sm text-slate-500 mb-3">Clinical Exposure · Patient Support</p>
-        <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Assisted with clinic operations and patient flow in an outpatient PT setting</li>
-          <li>Observed rehabilitation protocols and clinician–patient interactions</li>
-          <li>Gained exposure to injury management and therapeutic exercise</li>
+   <!-- MDOS Leadership -->
+   <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+        <h3 class="text-xl font-semibold text-teal-700 mb-1">
+          MDOS External Logistics Chair
+        </h3>
+
+   <p class="text-sm text-slate-500 mb-3">
+          Miami Day of Service · University of Miami
+        </p>
+
+  <p class="text-slate-700 mb-4">
+          Served as External Logistics Chair for the Miami Day of Service (MDOS),
+          the largest service event of the academic year at the University of Miami,
+          engaging thousands of students, faculty, and community partners across South Florida.
+        </p>
+
+   <ul class="list-disc list-inside text-slate-700 space-y-2">
+          <li>Coordinated logistics with community partners and campus organizations</li>
+          <li>Supported large-scale volunteer placement and transportation planning</li>
+          <li>Ensured smooth execution of service initiatives across multiple sites</li>
         </ul>
-        <a href="/projects/#pt-volunteer" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
- </div>
+  <!-- General Volunteering -->
+   <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+        <h3 class="text-xl font-semibold text-teal-700 mb-1">
+          Community Volunteering Experience
+        </h3>
+
+   <p class="text-sm text-slate-500 mb-3">
+          Education · Health · Community Outreach
+        </p>
+
+   <p class="text-slate-700 mb-4">
+          Engaged in a range of volunteering initiatives spanning healthcare exposure,
+          educational support, and community service, contributing time and skills to
+          mission-driven organizations both on and off campus.
+        </p>
+
+   <a href="{{ '/static/volunteer-resume.pdf' | relative_url }}"
+           target="_blank"
+           class="inline-block mt-2 text-teal-700 font-medium hover:underline">
+          View Volunteering Résumé →
+        </a>
+      </div>
+
+  </div>
   </div>
 </section>
+
 
 <!-- ===== CALL TO ACTION ===== -->
 <section class="py-20">
@@ -151,7 +188,7 @@ permalink: /experience/
       For a detailed overview of projects and applied work, explore the Projects page.
     </p>
 
- <a href="/projects/"
+ <a href="{{ '/projects/' | relative_url }}"
        class="inline-block px-6 py-3 rounded-xl bg-teal-600 text-white font-medium hover:bg-teal-500 transition">
       View Projects
     </a>
