@@ -101,6 +101,10 @@ This study analyzed data from the 2015 to 2024 draft classes to investigate whet
       </div>
 
   <div class="bg-white rounded-xl shadow p-6">
+        <div>
+        <img src="{{ '/static/JohnDoe.png' | relative_url }}" alt="Shiny App"
+             class="rounded-xl object-cover w-full h-full">
+      </div>   
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           Shiny App: Jump Asymmetry Analysis in Division I Football Players
         </h3>
