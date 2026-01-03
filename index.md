@@ -141,7 +141,7 @@ permalink: /
 </section>
 
 <!-- ===== CONTACT CTA ===== -->
-<section class="py-20 bg-slate-900 text-slate-100">
+<section class="py-20 bg-white text-slate-100">
   <div class="max-w-4xl mx-auto px-6 text-center">
 
    
