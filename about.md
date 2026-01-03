@@ -4,128 +4,82 @@ title: About
 permalink: /about/
 ---
 
-<!-- ===== ABOUT HEADER ===== -->
-<section class="py-20 bg-gradient-to-b from-teal-50 to-white">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-    <h1 class="text-4xl font-bold text-teal-800 mb-6">About Athena Amancio-Alsobrook</h1>
-    <p class="text-lg text-gray-700">
-      Sport Science · Exercise Physiology · Data & Research
-    </p>
+<!-- ===== HERO SECTION ===== -->
+<section class="hero split py-20 bg-white">
+  <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
+
+    <!-- Text Block -->
+    <div class="hero-text-block md:w-1/2">
+      <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">About Athena</h1>
+      <p class="text-slate-700 mb-6">
+        Athena Amancio-Alsobrook is an exercise physiology student and sport science enthusiast. 
+        She has extensive experience working with athlete performance, sport science research, 
+        and applied data analysis to optimize athlete well-being and performance.
+      </p>
+      <p class="text-slate-700 mb-6">
+        On campus, she is deeply involved in student leadership, volunteering, and research projects 
+        that combine her interests in sport, health, and community impact.
+      </p>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="hero-image md:w-1/2">
+      <img src="{{ '/static/athena-hero.jpg' | relative_url }}" alt="Athena portrait" class="rounded-xl shadow-lg">
+    </div>
+
   </div>
 </section>
 
-<!-- ===== MAIN BIO ===== -->
-<section class="py-16">
-  <div class="max-w-4xl mx-auto px-6">
-    <p class="text-gray-700 leading-relaxed mb-6">
-      Athena Amancio-Alsobrook is an exercise physiology student with a strong interest in sport science,
-      sports medicine, and data-driven performance analysis. Her work focuses on understanding human
-      performance through applied research, athlete monitoring, and analytical tools that support
-      evidence-based decision-making.
-    </p>
-
-    <p class="text-gray-700 leading-relaxed mb-6">
-      She has hands-on experience supporting high-performance environments, including work in collegiate
-      athletics where she contributed to athlete monitoring, hydration testing, thermography, and
-      performance operations. Her exposure to both applied sport science and data analytics has shaped
-      her approach to integrating research with real-world performance settings.
-    </p>
-
-    <p class="text-gray-700 leading-relaxed">
-      Athena is particularly interested in the intersection of sport science, injury prevention,
-      rehabilitation, and long-term athlete health. She aims to continue developing skills in research,
-      data analysis, and applied performance science while contributing to athlete-centered, team-first
-      environments.
-    </p>
-  </div>
-</section>
-
-<!-- ===== SKILLS & INTERESTS ===== -->
-<section class="py-16 bg-teal-50">
-  <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-bold text-teal-800 text-center mb-10">Focus Areas & Skills</h2>
-
+<!-- ===== IMAGE HIGHLIGHTS / ACTIVITIES ===== -->
+<section class="section py-16 bg-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-slate-900 mb-8">Campus & Sport Science Highlights</h3>
     <div class="grid md:grid-cols-3 gap-8">
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-xl font-semibold text-teal-700 mb-3">Applied Sport Science</h3>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>Athlete monitoring & performance metrics</li>
-          <li>Training load and recovery analysis</li>
-          <li>Field-based data collection</li>
-        </ul>
+      
+      <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/campus1.jpg' | relative_url }}" alt="Campus involvement" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2 text-slate-900">Campus Leadership</h4>
+        <p class="text-slate-700">Athena contributes to student programs and leadership initiatives on campus.</p>
       </div>
 
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-xl font-semibold text-teal-700 mb-3">Sports Medicine & Health</h3>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>Injury prevention strategies</li>
-          <li>Rehabilitation support</li>
-          <li>Long-term athlete development</li>
-        </ul>
+      <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/volunteer.jpg' | relative_url }}" alt="Volunteering" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2 text-slate-900">Volunteering</h4>
+        <p class="text-slate-700">Supports local community initiatives in health, wellness, and social impact.</p>
       </div>
 
-      <div class="bg-white p-6 rounded-xl shadow">
-        <h3 class="text-xl font-semibold text-teal-700 mb-3">Data & Research</h3>
-        <ul class="list-disc list-inside text-gray-700 space-y-2">
-          <li>R and Python for data analysis</li>
-          <li>Data visualization & reporting</li>
-          <li>Research design & interpretation</li>
-        </ul>
+      <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/sportlab.jpg' | relative_url }}" alt="Sport Science Lab" class="rounded-lg mb-4">
+        <h4 class="text-xl font-semibold mb-2 text-slate-900">Sport Science</h4>
+        <p class="text-slate-700">Hands-on experience with athlete monitoring, data collection, and analysis.</p>
       </div>
+
     </div>
   </div>
 </section>
 
-<!-- ===== CAREER DIRECTION ===== -->
-<section class="py-16">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold text-teal-800 mb-6">Professional Direction</h2>
-    <p class="text-gray-700 leading-relaxed">
-      Athena plans to pursue a career in sport science or sports medicine, with long-term goals of
-      contributing to athlete performance, injury reduction, and data-informed decision-making at
-      the collegiate or professional level. She is particularly drawn to environments that value
-      interdisciplinary collaboration, continuous learning, and applied research.
-    </p>
+<!-- ===== GALLERY SECTION ===== -->
+<section class="section py-16 bg-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-slate-900 mb-8">More About Athena</h3>
+    <div class="grid md:grid-cols-4 gap-6">
+      <img src="{{ '/static/gallery1.jpg' | relative_url }}" alt="Gallery image 1" class="rounded-lg shadow">
+      <img src="{{ '/static/gallery2.jpg' | relative_url }}" alt="Gallery image 2" class="rounded-lg shadow">
+      <img src="{{ '/static/gallery3.jpg' | relative_url }}" alt="Gallery image 3" class="rounded-lg shadow">
+      <img src="{{ '/static/gallery4.jpg' | relative_url }}" alt="Gallery image 4" class="rounded-lg shadow">
+    </div>
   </div>
 </section>
 
-<!-- ===== NEXT STEPS / NAVIGATION ===== -->
-<section class="py-16 bg-gradient-to-t from-teal-50 to-white">
-  <div class="max-w-4xl mx-auto px-6 text-center">
-
-   <h2 class="text-2xl font-semibold text-teal-800 mb-4">
-      Explore More
-    </h2>
-
-  <p class="text-gray-700 mb-8">
-      Learn more about Athena’s work, projects, and professional interests.
-    </p>
-
-  <!-- Navigation Buttons -->
-  <div class="flex justify-center gap-4 mb-10 flex-wrap">
-      <a href="/projects/" class="px-6 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
-        View Projects
-      </a>
-
-  <a href="/" class="px-6 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
-        Back to Home
-      </a>
+<!-- ===== CALL TO ACTION ===== -->
+<section class="section py-16 bg-white">
+  <div class="container text-center">
+    <h3 class="text-3xl font-bold text-slate-900 mb-4">Let’s Connect</h3>
+    <p class="text-slate-700 mb-6">Reach out via email or check out my work online.</p>
+    <div class="flex justify-center gap-4 flex-wrap">
+      <a href="mailto:aamancioalsobrook@gmail.com" class="px-6 py-3 bg-teal-700 text-white rounded-lg font-semibold hover:bg-teal-800 transition">Email</a>
+      <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">LinkedIn</a>
+      <a href="https://github.com/Thena03" target="_blank" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">GitHub</a>
     </div>
-
-  <!-- Contact Icons -->
-   <div class="flex justify-center gap-6">
-      <a href="mailto:aamancioalsobrook@gmail.com" aria-label="Email">
-        <img src="/assets/icons/mail.svg" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
-      </a>
-
-  <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" aria-label="LinkedIn">
-        <img src="/assets/icons/linkedin.svg" alt="LinkedIn" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
-      </a>
-
-   <a href="https://github.com/Thena03" target="_blank" aria-label="GitHub">
-        <img src="/assets/icons/github.svg" alt="GitHub" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
-      </a>
-    </div>
-
   </div>
 </section>
