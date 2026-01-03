@@ -31,7 +31,7 @@ permalink: /experience/
           <li>Assisted with hydration testing, thermography, and environmental monitoring</li>
           <li>Contributed to game-day sport science operations for an AP Top 25 and 2025 College Football Playoff Semifinalist team</li>
         </ul>
-        <a href="{{ '/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+        <a href="{{ 'athena-amancio-alsobrook/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
  <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">

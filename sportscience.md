@@ -7,7 +7,7 @@ permalink: /experience/sport-science
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
     <h1 class="text-4xl font-bold text-slate-900 mb-4">
-      Sport Science Intern — University of Miami Football
+      Sport Science — University of Miami Football
     </h1>
     <p class="text-lg text-slate-700">
       Applied sport science support within a Power Five football program, integrating athlete monitoring,
