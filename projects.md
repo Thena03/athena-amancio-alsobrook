@@ -145,7 +145,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
                 </p>
         <a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
           View Project →
-        </a>
+        </a></p>
         <p class="text-sm text-gray-500 mb-4">
           R · Data Cleaning · Sustainability
         </p>
