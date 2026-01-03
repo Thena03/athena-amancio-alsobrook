@@ -8,8 +8,8 @@ permalink: /about/
 <section class="hero split py-20 bg-white">
   <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
 
-    <!-- Text Block -->
-    <div class="hero-text-block md:w-1/2">
+   <!-- Text Block -->
+   <div class="hero-text-block md:w-1/2">
       <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">About Athena</h1>
       <p class="text-slate-700 mb-6">
         Athena Amancio-Alsobrook is an exercise physiology student and sport science enthusiast. 
@@ -22,9 +22,9 @@ permalink: /about/
       </p>
     </div>
 
-    <!-- Hero Image -->
-    <div class="hero-image md:w-1/2">
-      <img src="{{ '/static/athena-hero.jpg' | relative_url }}" alt="Athena portrait" class="rounded-xl shadow-lg">
+  <!-- Hero Image -->
+  <div class="hero-image md:w-1/2">
+      <img src="{{ '/static/athenaa.jpg' | relative_url }}" alt="Athena portrait" class="rounded-xl shadow-lg">
     </div>
 
   </div>
