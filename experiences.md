@@ -24,7 +24,7 @@ permalink: /experience/
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-        <h3 class="text-xl font-semibold text-teal-600">Sport Science Intern — University of Miami Athletics</h3>
+        <h3 class="text-xl font-semibold text-teal-600"> Football Sport Science — University of Miami Athletics</h3>
         <p class="text-sm text-slate-500 mb-3">Football · Athlete Monitoring · Performance Support</p>
         <ul class="list-disc list-inside text-slate-700 space-y-2">
           <li>Supported athlete monitoring and performance data collection in a Power Five football program</li>
@@ -155,5 +155,23 @@ permalink: /experience/
        class="inline-block px-6 py-3 rounded-xl bg-teal-600 text-white font-medium hover:bg-teal-500 transition">
       View Projects
     </a>
+  </div>
+</section>
+
+  <!-- Contact Icons -->
+   <div class="flex justify-center gap-6">
+      <a href="mailto:aamancioalsobrook@gmail.com" aria-label="Email">
+        <img src="{{ '/static/icons/envelope.svg' | relative_url }}" alt="Email" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+      </a>
+
+  <a href="https://www.linkedin.com/in/athena-a-alsobrook-133b731b0/" target="_blank" aria-label="LinkedIn">
+        <img src="{{ '/static/icons/linkedin.svg' | relative_url }}" alt="LinkedIn" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+      </a>
+
+   <a href="https://github.com/Thena03" target="_blank" aria-label="GitHub">
+        <img src="{{ '/static/icons/github.svg' | relative_url }}" alt="GitHub" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
+      </a>
+    </div>
+
   </div>
 </section>

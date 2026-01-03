@@ -164,10 +164,11 @@ Created a player-facing deliverable translating individual thermal imaging resul
           View Project →
         </a>
 
-        <p class="text-sm text-gray-500 mb-4">
+   <p class="text-sm text-gray-500 mb-4">
           R · Data Cleaning · Sustainability
         </p>
-      </div>
+      
+  </div>
 
  <!-- ReadPal -->
 <div class="bg-white rounded-xl shadow p-6">
@@ -188,6 +189,29 @@ Created a player-facing deliverable translating individual thermal imaging resul
       </div>
 
    </div>
+  </div>
+
+  <div class="bg-white rounded-xl shadow p-6">
+<!-- Image -->
+<div>
+        <img src="{{ '/static/excelerate.png' | relative_url }}" alt="Excelerate preview"
+             class="rounded-xl object-cover w-full h-full">
+      </div> <br>
+        <h3 class="text-xl font-semibold text-teal-700 mb-2">
+  Excelerate 
+        </h3>
+        <p class="text-gray-700 mb-4">
+ Designed to be a resource for individuals looking to improve their data skills using Excel.
+        </p>
+               
+<a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
+          View Project →
+        </a>
+
+   <p class="text-sm text-gray-500 mb-4">
+          Website Development · Excel · HTML/CSS
+        </p>
+      
   </div>
 </section>
 
