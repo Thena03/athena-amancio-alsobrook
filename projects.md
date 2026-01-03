@@ -205,11 +205,11 @@ Created a player-facing deliverable translating individual thermal imaging resul
 
   <!-- Navigation Buttons -->
   <div class="flex justify-center gap-4 mb-10 flex-wrap">
-      <a href="/about/" class="px-6 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
+      <a href="{{ '/about/' | relative_url }}" class="px-6 py-3 rounded-xl bg-teal-700 text-white font-medium hover:bg-teal-600 transition">
        About Me
       </a>
 
-  <a href="/" class="px-6 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
+  <a href="{{ '/' | relative_url }}" class="px-6 py-3 rounded-xl border border-teal-700 text-teal-700 font-medium hover:bg-teal-50 transition">
         Back to Home
       </a>
     </div>
