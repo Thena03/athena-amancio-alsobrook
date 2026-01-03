@@ -18,8 +18,8 @@ permalink: /
         for athletes.
       </p>
       <div class="hero-buttons flex flex-wrap gap-4">
-        <a href="/projects" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">View Projects</a>
-        <a href="/about" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">About Me</a>
+        <a href="/projects/" class="px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition">View Projects</a>
+        <a href="/about/" class="px-6 py-3 bg-blue-300 text-teal-800 rounded-lg font-semibold hover:bg-blue-400 transition">About Me</a>
       </div>
     </div>
 
