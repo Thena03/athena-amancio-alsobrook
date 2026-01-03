@@ -37,7 +37,7 @@ permalink: /about/
     <div class="grid md:grid-cols-3 gap-8">
       
   <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
-        <img src="{{ '/static/campus1.jpg' | relative_url }}" alt="Campus involvement" class="rounded-lg mb-4">
+        <img src="{{ '/static/MDOS.jpg' | relative_url }}" alt="Campus involvement" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Campus Leadership</h4>
         <p class="text-slate-700">Athena contributes to student programs and leadership initiatives on campus.</p>
       </div>
@@ -49,7 +49,7 @@ permalink: /about/
       </div>
 
    <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
-        <img src="{{ '/static/sportlab.jpg' | relative_url }}" alt="Sport Science Lab" class="rounded-lg mb-4">
+        <img src="{{ '/static/sportsciencethene.jpg' | relative_url }}" alt="Sport Science Lab" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Sport Science</h4>
         <p class="text-slate-700">Hands-on experience with athlete monitoring, data collection, and analysis.</p>
       </div>
