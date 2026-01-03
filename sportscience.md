@@ -117,6 +117,7 @@ permalink: /experience/sport-science
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
       <img src="{{ '/static/dynaspeed.jpg' | relative_url }}" alt="Dynaspeed high-speed resistance training" class="rounded-xl shadow-sm">
       <img src="{{ '/static/forceplate.jpg' | relative_url }}" alt="Hawkins force plate testing" class="rounded-xl shadow-sm">
+    <img src="{{ '/static/forceplate2.jpg' | relative_url }}" alt="Hawkins force plate testing" class="rounded-xl shadow-sm">
     </div>
   </div>
 </section>
@@ -135,7 +136,7 @@ permalink: /experience/sport-science
 
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <img src="{{ '/static/gameday.jpg' | relative_url }}" alt="Game day sport science operations" class="rounded-xl shadow-sm">
-      <img src="{{ '/static/pro-day.jpg' | relative_url }}" alt="NFL Pro Day performance monitoring" class="rounded-xl shadow-sm">
+      <img src="{{ '/static/proday.jpg' | relative_url }}" alt="NFL Pro Day performance monitoring" class="rounded-xl shadow-sm">
     </div>
   </div>
 </section>
