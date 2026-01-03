@@ -1,48 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{{ page.title }} | Athena Amancio-Alsobrook</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title | default: "Athena A." }}</title>
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="/style.css" />
-  </head>
+  <!-- Favicon (replace with yours) -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
+</head>
+<body class="bg-gradient-to-br from-teal-50 via-white to-teal-100 min-h-screen flex flex-col">
 
-  <body>
+  <!-- Navbar -->
+  <nav class="bg-teal-100/90 backdrop-blur-md shadow-md fixed w-full z-40">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
 
-    <!-- ===== NAVBAR ===== -->
-    <header class="navbar">
-      <div class="container nav-flex">
-        <h1 class="logo"><a href="/" style="text-decoration:none; color: inherit;">Athena A.</a></h1>
+        <!-- Logo -->
+        <a href="{{ '/' | relative_url }}" class="font-bold text-teal-800 text-xl">
+          Athena A.
+        </a>
 
-        <nav>
-          <ul class="nav-links">
-            <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
-            <li><a href="/about" {% if page.url == "/about" %}class="active"{% endif %}>About</a></li>
-            <li><a href="/projects" {% if page.url == "/projects" %}class="active"{% endif %}>Projects</a></li>
-          </ul>
-        </nav>
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex space-x-6">
+          <a href="{{ '/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/' %}underline{% endif %}">Home</a>
+          <a href="{{ '/about/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/about/' %}underline{% endif %}">About</a>
+          <a href="{{ '/projects/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/projects/' %}underline{% endif %}">Projects</a>
+          <a href="{{ '/contact/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/contact/' %}underline{% endif %}">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <div class="md:hidden">
+          <button id="mobile-menu-button" class="focus:outline-none">
+            <svg class="w-6 h-6 text-teal-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
+
       </div>
-    </header>
+    </div>
 
-    <!-- ===== MAIN CONTENT ===== -->
-    <main>
-      {{ content }}
-    </main>
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-teal-50">
+      <a href="{{ '/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Home</a>
+      <a href="{{ '/about/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">About</a>
+      <a href="{{ '/projects/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Projects</a>
+      <a href="{{ '/contact/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Contact</a>
+    </div>
+  </nav>
 
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-      <div class="container">
-        <p>© {{ site.time | date: "%Y" }} Athena Amancio-Alsobrook</p>
-      </div>
-    </footer>
+  <!-- Main content -->
+  <main class="flex-1 mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    {{ content }}
+  </main>
 
-  </body>
+  <!-- Footer -->
+  <footer class="bg-teal-100 text-teal-800 text-center py-4 mt-auto shadow-inner">
+    &copy; {{ site.time | date: "%Y" }} Athena Amancio-Alsobrook
+  </footer>
+
+  <!-- Mobile Menu Script -->
+  <script>
+    const btn = document.getElementById('mobile-menu-button');
+    const menu = document.getElementById('mobile-menu');
+    btn.addEventListener('click', () => menu.classList.toggle('hidden'));
+  </script>
+
+</body>
 </html>
 
