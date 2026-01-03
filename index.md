@@ -9,22 +9,22 @@ permalink: /
   <div class="container hero-grid flex flex-col md:flex-row items-center gap-10">
 
     <!-- Text Block -->
-    <div class="hero-text-block md:w-1/2">
+  <div class="hero-text-block md:w-1/2">
       <h1 class="text-4xl md:text-5xl font-bold text-slate-900 mb-4">Athena Amancio-Alsobrook</h1>
-      <h2 class="text-xl md:text-2xl font-semibold text-teal-700 mb-6">Sport Science · Exercise Physiology · Data</h2>
+      <h2 class="text-xl md:text-2xl font-semibold text-teal-700 mb-6">Sport Science · Data · Social Impact</h2>
       <p class="text-slate-700 mb-6">
         I explore human performance and athlete well-being through sport science, research, 
         and data-driven insights. I am passionate about turning data into actionable improvements 
         for athletes.
       </p>
       <div class="hero-buttons flex flex-wrap gap-4">
-        <a href="/projects/" class="px-6 py-3 bg-teal-700 text-white rounded-lg font-semibold hover:bg-teal-800 transition">View Projects</a>
-        <a href="/about/" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">About Me</a>
+        <a href="{{ '/projects/' | relative_url }}" class="px-6 py-3 bg-teal-700 text-white rounded-lg font-semibold hover:bg-teal-800 transition">View Projects</a>
+        <a href="{{ '/about/' | relative_url }}" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">About Me</a>
       </div>
     </div>
 
-    <!-- Hero Image -->
-    <div class="hero-image md:w-1/2">
+ <!-- Hero Image -->
+   <div class="hero-image md:w-1/2">
       <img src="{{ '/static/sportathena.jpg'  | relative_url }}" alt="Athena working in sport science" class="rounded-xl shadow-lg">
     </div>
 
