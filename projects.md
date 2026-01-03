@@ -85,7 +85,7 @@ permalink: /projects/
 <div>
         <img src="{{ '/static/40yard.png' | relative_url }}" alt="40 yard preview"
              class="rounded-xl object-cover w-full h-full">
-      </div>
+      </div> <br>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           The Sprint to the Draft: Evaluating the 40-yard Dash's Impact on Wide Receiver Draft Selection.
         </h3>
@@ -116,10 +116,10 @@ Developed an interactive R Shiny dashboard to calculate and visualize bilateral 
   <div>
         <img src="{{ '/static/thermohuman.png' | relative_url }}" alt="Thermohuman Player Deliverable"
              class="rounded-xl object-cover w-full h-full">
-      </div>
+      </div> <br>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
           Infrared Thermography Player Deliverable
-        </h3> <br>
+        </h3> 
         <p class="text-gray-700 mb-4">
 Created a player-facing deliverable translating individual thermal imaging results into clear recovery recommendations. The goal was to empower collegiate football players to take ownership of their recovery through personalized feedback on thermal data and targeted recovery modalities. 
         </p>
