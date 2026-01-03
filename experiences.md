@@ -41,10 +41,9 @@ permalink: /experience/
           <li>Provided applied sport science support to Olympic-level athletes in training and competition</li>
           <li>Implemented athlete monitoring protocols and performance analytics for high-stakes events</li>
         </ul>
-        <a href="/projects/#olympic-sports" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
-    </div>
+  </div>
   </div>
 </section>
 
@@ -52,9 +51,9 @@ permalink: /experience/
 <section class="py-16">
   <div class="max-w-6xl mx-auto px-6">
 
-    <h2 class="text-3xl font-semibold text-slate-900 mb-10">Data & Research</h2>
+   <h2 class="text-3xl font-semibold text-slate-900 mb-10">Data & Research</h2>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+   <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
  <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
         <h3 class="text-xl font-semibold text-teal-600">Data Research Assistant — School of Education & Human Development</h3>
