@@ -144,7 +144,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
       Social Impact & Data for Good
     </h2>
 
-<div class="grid md:grid-cols-3 lg:grid-cols-3 gap-8">
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
  <!-- Agricultural Project -->
 <div class="bg-white rounded-xl shadow p-6">
@@ -194,7 +194,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
 <div class="bg-white rounded-xl shadow p-6">
 <!-- Image -->
   <div>
-        <img src="{{ '/static/excelerate.png' | relative_url }}" alt="Excelerate preview"
+        <img src="{{ '/static/exceled.png' | relative_url }}" alt="Excelerate preview"
              class="rounded-xl object-cover w-full h-full">
       </div> <br>
         <h3 class="text-xl font-semibold text-teal-700 mb-2">
