@@ -8,35 +8,49 @@
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Favicon (replace with yours) -->
+  <!-- Favicon -->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
 </head>
-<body class="bg-gradient-to-br from-teal-50 via-white to-teal-100 min-h-screen flex flex-col">
 
-  <!-- Navbar -->
-  <nav class="bg-teal-100/90 backdrop-blur-md shadow-md fixed w-full z-40">
+<body class="bg-gradient-to-br from-slate-900 via-slate-900 to-slate-800 text-slate-100 min-h-screen flex flex-col">
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 fixed w-full z-40">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between h-16 items-center">
 
         <!-- Logo -->
-        <a href="{{ '/' | relative_url }}" class="font-bold text-teal-800 text-xl">
+        <a href="{{ '/' | relative_url }}" class="font-semibold text-lg text-white tracking-tight">
           Athena A.
         </a>
 
         <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-6">
-          <a href="{{ '/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/' %}underline{% endif %}">Home</a>
-          <a href="{{ '/about/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/about/' %}underline{% endif %}">About</a>
-          <a href="{{ '/projects/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/projects/' %}underline{% endif %}">Projects</a>
-          <a href="{{ '/contact/' | relative_url }}" class="text-teal-800 hover:text-teal-600 font-medium {% if page.url == '/contact/' %}underline{% endif %}">Contact</a>
+        <div class="hidden md:flex space-x-8">
+          <a href="{{ '/' | relative_url }}"
+             class="text-slate-300 hover:text-white transition {% if page.url == '/' %}text-white{% endif %}">
+            Home
+          </a>
+          <a href="{{ '/about/' | relative_url }}"
+             class="text-slate-300 hover:text-white transition {% if page.url == '/about/' %}text-white{% endif %}">
+            About
+          </a>
+          <a href="{{ '/projects/' | relative_url }}"
+             class="text-slate-300 hover:text-white transition {% if page.url == '/projects/' %}text-white{% endif %}">
+            Projects
+          </a>
+          <a href="{{ '/contact/' | relative_url }}"
+             class="text-slate-300 hover:text-white transition {% if page.url == '/contact/' %}text-white{% endif %}">
+            Contact
+          </a>
         </div>
 
         <!-- Mobile Menu Button -->
         <div class="md:hidden">
-          <button id="mobile-menu-button" class="focus:outline-none">
-            <svg class="w-6 h-6 text-teal-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          <button id="mobile-menu-button" class="focus:outline-none text-slate-300">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 6h16M4 12h16M4 18h16" />
             </svg>
           </button>
         </div>
@@ -45,21 +59,21 @@
     </div>
 
     <!-- Mobile Menu -->
-    <div id="mobile-menu" class="md:hidden hidden px-2 pt-2 pb-3 space-y-1 bg-teal-50">
-      <a href="{{ '/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Home</a>
-      <a href="{{ '/about/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">About</a>
-      <a href="{{ '/projects/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Projects</a>
-      <a href="{{ '/contact/' | relative_url }}" class="block px-3 py-2 rounded hover:bg-teal-200">Contact</a>
+    <div id="mobile-menu" class="md:hidden hidden px-4 pt-3 pb-4 space-y-2 bg-slate-900 border-t border-slate-800">
+      <a href="{{ '/' | relative_url }}" class="block px-3 py-2 rounded text-slate-300 hover:bg-slate-800">Home</a>
+      <a href="{{ '/about/' | relative_url }}" class="block px-3 py-2 rounded text-slate-300 hover:bg-slate-800">About</a>
+      <a href="{{ '/projects/' | relative_url }}" class="block px-3 py-2 rounded text-slate-300 hover:bg-slate-800">Projects</a>
+      <a href="{{ '/contact/' | relative_url }}" class="block px-3 py-2 rounded text-slate-300 hover:bg-slate-800">Contact</a>
     </div>
   </nav>
 
-  <!-- Main content -->
+  <!-- ===== MAIN CONTENT ===== -->
   <main class="flex-1 mt-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     {{ content }}
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-teal-100 text-teal-800 text-center py-4 mt-auto shadow-inner">
+  <!-- ===== FOOTER ===== -->
+  <footer class="border-t border-slate-800 text-slate-400 text-center py-6 mt-auto">
     &copy; {{ site.time | date: "%Y" }} Athena Amancio-Alsobrook
   </footer>
 
@@ -72,4 +86,3 @@
 
 </body>
 </html>
-
