@@ -39,22 +39,25 @@ permalink: /about/
   <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/MDOS.jpg' | relative_url }}" alt="Campus involvement" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Campus Leadership</h4>
-        <p class="text-slate-700">Athena contributes to student programs and leadership initiatives on campus.</p>
+        <p class="text-slate-700">Athena contributes to student programs and leadership initiatives on campus.</p> <br>
+       <a href="{{ '/experience/' | relative_url }}" class="block px-3 py-2 rounded text-slate-600 hover:bg-slate-100">Learn More →</a>
       </div>
 
   <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/volunteer.jpg' | relative_url }}" alt="Volunteering" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Volunteering</h4>
-        <p class="text-slate-700">Supports local community initiatives in health, wellness, and social impact.</p>
+        <p class="text-slate-700">Supports local community initiatives in health, wellness, and social impact.</p> <br>
+         <a href="https://news.miami.edu/alumni/stories/2024/08/volunteerism-is-a-way-of-giving-back.html" target="_blank" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">Learn more about my volunteering efforts →</a>
       </div>
 
    <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/sportsciencethene.jpg' | relative_url }}" alt="Sport Science Lab" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Sport Science</h4>
-        <p class="text-slate-700">Hands-on experience with athlete monitoring, data collection, and analysis.</p>
+        <p class="text-slate-700">Hands-on experience with athlete monitoring, data collection, and analysis.</p> <br>
+       <a href="{{ '/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
-    </div>
+  </div>
   </div>
 </section>
 

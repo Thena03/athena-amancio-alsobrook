@@ -164,6 +164,85 @@ permalink: /experience/
   </div>
 </section>
 
+<script>
+  const slider = document.getElementById("slider");
+  if (!slider) return;
+  
+  const nextBtn = document.getElementById("nextBtn");
+  const prevBtn = document.getElementById("prevBtn");
+  
+  // Get all slides inside the slider
+  let slides = Array.from(slider.children);
+  let index = 0;
+  let slidesPerView = getSlidesPerView();
+  
+  function getSlidesPerView() {
+    return window.innerWidth >= 768 ? 2 : 1;
+  }
+  
+  function cloneSlides() {
+    slidesPerView = getSlidesPerView();
+    slider.innerHTML = "";
+  
+    const startClones = slides.slice(-slidesPerView).map(s => s.cloneNode(true));
+    const endClones = slides.slice(0, slidesPerView).map(s => s.cloneNode(true));
+  
+    startClones.forEach(s => slider.appendChild(s));
+    slides.forEach(s => slider.appendChild(s));
+    endClones.forEach(s => slider.appendChild(s));
+  
+    index = slidesPerView; // Reset index after cloning
+    updateTransform(false);
+  }
+  
+  function updateTransform(animate = true) {
+    slider.style.transition = animate ? "transform 0.3s ease-in-out" : "none";
+    slider.style.transform = `translateX(-${index * (100 / slidesPerView)}%)`;
+  }
+  
+  // Initialize slider
+  function init() {
+    cloneSlides();
+    updateTransform(false);
+  }
+  
+  // Next button
+  nextBtn.addEventListener("click", () => {
+    index++;
+    updateTransform();
+  
+    if (index >= slides.length + slidesPerView) {
+      setTimeout(() => {
+        index = slidesPerView;
+        updateTransform(false);
+      }, 300);
+    }
+  });
+  
+  // Previous button
+  prevBtn.addEventListener("click", () => {
+    index--;
+    updateTransform();
+  
+    if (index < 0) {
+      setTimeout(() => {
+        index = slides.length;
+        updateTransform(false);
+      }, 300);
+    }
+  });
+  
+  // Handle window resize
+  window.addEventListener("resize", () => {
+    index = slidesPerView;
+    init();
+  });
+  
+ // Run the slider
+  init();
+  </script>
+  
+
 <!-- ===== VOLUNTEERING ===== -->
 <section class="py-16 bg-slate-50 w-full">
   <div class="max-w-6xl mx-auto px-6">
