@@ -16,12 +16,12 @@ permalink: /contact/
       I'd love to hear from you! Whether you have questions, collaboration ideas, or just want to say hi, feel free to reach out.
     </p>
  <!-- Contact Info -->
- <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+ <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
       <!-- Email -->
       <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm text-center">
         <h3 class="text-xl font-semibold text-teal-600 mb-2">📧 Email</h3>
         <p class="text-slate-700">
-          <a href="mailto:aamancioalsobrook@gmail.com" class="hover:text-teal-500">aamancioalsobrook@gmail.com</a>
+          <a href="mailto:aamancioalsobrook@gmail.com" class="hover:text-teal-500 text-center">aamancioalsobrook@gmail.com</a>
         </p>
       </div>
 
