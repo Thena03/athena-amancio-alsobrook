@@ -7,7 +7,7 @@ permalink: /experience/italy
 <!-- ===== HEADER ===== -->
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
-    <h1 class="text-4xl font-bold text-slate-900 mb-4">
+    <h1 class="text-4xl font-bold text-center text-slate-900 mb-4">
       <br> Data Research Assistant - Brescia, Italy
     </h1>
 
@@ -73,7 +73,7 @@ Throughout the Spring 2025 semester, we learned research by applying the tools w
     <img src="{{ '/static/presthena.jpg' | relative_url }}" alt="Stella and I presenting" class="rounded-xl shadow-sm">
     <img src="{{ '/static/presthena2.jpg' | relative_url }}" alt="Presenting in italy" class="rounded-xl shadow-sm">
         <img src="{{ '/static/stellapres.JPG' | relative_url }}" alt="Presentation part 2" class="rounded-xl shadow-sm">
-    </div>
+    </div> <br>
 <p class="text-slate-700 max-w-4xl mb-8">
 Using Excel, R programming, and Canva (for visual design), my partner Stella and I worked with RuRall to evaluate a potential partnership with the agricultural software company Sandy focused on sustainable farming in Brescia, Italy. Our role centered on transforming raw data into insights that could guide strategic decisions.
 <br><br>

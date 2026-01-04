@@ -7,7 +7,7 @@ permalink: /experience/
 <!-- ===== EXPERIENCE HEADER ===== -->
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
-    <h1 class="text-4xl font-bold text-slate-900 mb-4">Experience</h1>
+    <br><h1 class="text-4xl font-bold text-slate-900 mb-4">Experience</h1>
     <p class="text-lg text-slate-700">
       Applied experience across sport science, research support, campus leadership, and community service.
     </p>
