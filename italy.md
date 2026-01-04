@@ -53,7 +53,7 @@ Throughout the Spring 2025 semester, we learned research by applying the tools w
 
  <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
     <img src="{{ '/static/dean.jpg' | relative_url }}" alt="Going to Italy" class="rounded-xl shadow-sm">
-    <img src="{{ '/static/alberto.jpg' | relative_url }}" alt="Alberto, Stella, and I" class="rounded-xl shadow-sm">
+    <!--img src="{{ '/static/alberto.jpg' | relative_url }}" alt="Alberto, Stella, and I" class="rounded-xl shadow-sm">-->
     <div class="flex flex-col gap-6">
     <img src="{{ '/static/cooking.jpg' | relative_url }}" alt="Cooking experience in italy" class="rounded-xl shadow-sm">
     <img src="{{ '/static/flight.jpg' | relative_url }}" alt="Landing in italy" class="rounded-xl shadow-sm">
