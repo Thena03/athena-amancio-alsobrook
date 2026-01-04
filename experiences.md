@@ -79,47 +79,30 @@ permalink: /experience/
    </div>
   </div>
 </section>
-
-<!-- ===== CAMPUS INVOLVEMENT & LEADERSHIP ===== -->
-<section class="py-16 bg-slate-50">
-  <div class="max-w-6xl mx-auto px-6">
 <!-- ===== CAMPUS INVOLVEMENT & LEADERSHIP ===== -->
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
 
-   <!-- Header + Navigation -->
-  <div class="flex items-center justify-between mb-10">
+    <!-- Header + Navigation -->
+    <div class="flex items-center justify-between mb-10">
       <h2 class="text-3xl font-semibold text-slate-900">
         Campus Involvement & Leadership
       </h2>
 
-   <div class="flex gap-3">
-        <button id="prevBtn" aria-label="Previous"
-          class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">
-          ←
-        </button>
-        <button id="nextBtn" aria-label="Next"
-          class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">
-          →
-        </button>
+      <div class="flex gap-3">
+        <button id="prevBtn" aria-label="Previous" class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">←</button>
+        <button id="nextBtn" aria-label="Next" class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">→</button>
       </div>
     </div>
 
-   <!-- Slider viewport -->
-  <div class="overflow-hidden">
-      <div
-        id="slider"
-        class="flex transition-transform duration-300 ease-in-out">
-
-   <!-- SLIDE 1 -->
-   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+    <!-- Slider viewport -->
+    <div class="overflow-hidden">
+      <div id="slider" class="flex transition-transform duration-300 ease-in-out" aria-live="polite">
+        <!-- Slide 1 -->
+        <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
-            <h3 class="text-xl font-semibold text-teal-600">
-              Assistant to the Associate Dean
-            </h3>
-            <p class="text-sm text-slate-500 mb-3">
-              School of Education & Human Development · Program Development
-            </p>
+            <h3 class="text-xl font-semibold text-teal-600">Assistant to the Associate Dean</h3>
+            <p class="text-sm text-slate-500 mb-3">School of Education & Human Development · Program Development</p>
             <ul class="list-disc list-inside text-slate-700 space-y-2">
               <li>Supported development of undergraduate programs and student engagement initiatives</li>
               <li>Assisted in planning campus-wide events and academic programs</li>
@@ -127,15 +110,11 @@ permalink: /experience/
           </div>
         </div>
 
-   <!-- SLIDE 2 -->
-  <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+        <!-- Slide 2 -->
+        <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
-            <h3 class="text-xl font-semibold text-teal-600">
-              Campus Director — Hult Prize Competition
-            </h3>
-            <p class="text-sm text-slate-500 mb-3">
-              Leadership · Entrepreneurship · Social Impact
-            </p>
+            <h3 class="text-xl font-semibold text-teal-600">Campus Director — Hult Prize Competition</h3>
+            <p class="text-sm text-slate-500 mb-3">Leadership · Entrepreneurship · Social Impact</p>
             <ul class="list-disc list-inside text-slate-700 space-y-2">
               <li>Directed student teams competing in the global Hult Prize competition</li>
               <li>Coordinated mentorship, strategy sessions, and campus logistics</li>
@@ -143,104 +122,92 @@ permalink: /experience/
           </div>
         </div>
 
-  <!-- SLIDE 3 -->
-   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+        <!-- Slide 3 -->
+        <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
-            <h3 class="text-xl font-semibold text-teal-600">
-              ASL Teaching Assistant (ASL 1–ASL 4)
-            </h3>
-            <p class="text-sm text-slate-500 mb-3">
-              Instructional Support · Communication
-            </p>
+            <h3 class="text-xl font-semibold text-teal-600">ASL Teaching Assistant (ASL 1–ASL 4)</h3>
+            <p class="text-sm text-slate-500 mb-3">Instructional Support · Communication</p>
             <ul class="list-disc list-inside text-slate-700 space-y-2">
               <li>Supported classroom instruction and student learning</li>
               <li>Assisted with lesson planning, grading, and engagement</li>
             </ul>
           </div>
         </div>
-
-   </div>
+      </div>
     </div>
   </div>
 </section>
 
 <script>
-  const slider = document.getElementById("slider");
-  if (!slider) return;
-  
-  const nextBtn = document.getElementById("nextBtn");
-  const prevBtn = document.getElementById("prevBtn");
-  
-  // Get all slides inside the slider
-  let slides = Array.from(slider.children);
-  let index = 0;
-  let slidesPerView = getSlidesPerView();
-  
-  function getSlidesPerView() {
-    return window.innerWidth >= 768 ? 2 : 1;
+const slider = document.getElementById("slider");
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
+
+let slides = Array.from(slider.children);
+let index = 0;
+let slidesPerView = getSlidesPerView();
+
+function getSlidesPerView() {
+  return window.innerWidth >= 768 ? 2 : 1;
+}
+
+// Clone slides for infinite loop
+function cloneSlides() {
+  slidesPerView = getSlidesPerView();
+  slider.innerHTML = "";
+
+  slides.forEach(s => s.classList.add("slide-original")); // mark originals
+
+  const startClones = slides.slice(-slidesPerView).map(s => s.cloneNode(true));
+  const endClones = slides.slice(0, slidesPerView).map(s => s.cloneNode(true));
+
+  startClones.forEach(s => slider.appendChild(s));
+  slides.forEach(s => slider.appendChild(s));
+  endClones.forEach(s => slider.appendChild(s));
+
+  index = slidesPerView;
+  updateTransform(false);
+}
+
+function updateTransform(animate = true) {
+  slider.style.transition = animate ? "transform 0.3s ease-in-out" : "none";
+  slider.style.transform = `translateX(-${index * (100 / slidesPerView)}%)`;
+}
+
+// Initialize slider
+function init() {
+  slides = Array.from(slider.children).filter(c => c.dataset.slide); // get only originals
+  cloneSlides();
+}
+
+// Next button
+nextBtn.addEventListener("click", () => {
+  index++;
+  updateTransform();
+  if (index >= slides.length + slidesPerView) {
+    setTimeout(() => { index = slidesPerView; updateTransform(false); }, 300);
   }
-  
-  function cloneSlides() {
-    slidesPerView = getSlidesPerView();
-    slider.innerHTML = "";
-  
-    const startClones = slides.slice(-slidesPerView).map(s => s.cloneNode(true));
-    const endClones = slides.slice(0, slidesPerView).map(s => s.cloneNode(true));
-  
-    startClones.forEach(s => slider.appendChild(s));
-    slides.forEach(s => slider.appendChild(s));
-    endClones.forEach(s => slider.appendChild(s));
-  
-    index = slidesPerView; // Reset index after cloning
-    updateTransform(false);
+});
+
+// Prev button
+prevBtn.addEventListener("click", () => {
+  index--;
+  updateTransform();
+  if (index < 0) {
+    setTimeout(() => { index = slides.length; updateTransform(false); }, 300);
   }
-  
-  function updateTransform(animate = true) {
-    slider.style.transition = animate ? "transform 0.3s ease-in-out" : "none";
-    slider.style.transform = `translateX(-${index * (100 / slidesPerView)}%)`;
-  }
-  
-  // Initialize slider
-  function init() {
-    cloneSlides();
-    updateTransform(false);
-  }
-  
-  // Next button
-  nextBtn.addEventListener("click", () => {
-    index++;
-    updateTransform();
-  
-    if (index >= slides.length + slidesPerView) {
-      setTimeout(() => {
-        index = slidesPerView;
-        updateTransform(false);
-      }, 300);
-    }
-  });
-  
-  // Previous button
-  prevBtn.addEventListener("click", () => {
-    index--;
-    updateTransform();
-  
-    if (index < 0) {
-      setTimeout(() => {
-        index = slides.length;
-        updateTransform(false);
-      }, 300);
-    }
-  });
-  
-  // Handle window resize
-  window.addEventListener("resize", () => {
-    index = slidesPerView;
-    init();
-  });
-  
- // Run the slider
+});
+
+// Handle resize
+window.addEventListener("resize", () => {
+  slidesPerView = getSlidesPerView();
+  index = slidesPerView;
   init();
-  </script>
+});
+
+init();
+</script>
+
   
 
 <!-- ===== VOLUNTEERING ===== -->
