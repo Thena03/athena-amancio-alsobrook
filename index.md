@@ -120,7 +120,7 @@ permalink: /
           Sustainable Agriculture with RuRall
         </h4>
         <p class="text-slate-700">
-          Supported digital solutions promoting sustainable farming practices across Europe
+          Developed digital solutions in order to promote sustainable farming practices across Europe
           through data analysis and visualization.
         </p>
           <a href="{{ '/experience/italy' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
