@@ -5,9 +5,9 @@ permalink: /experience/italy
 ---
 
 <section class="py-20">
-<div class="max-w-5xl mx-auto-px-6">
-<h1 class="text-4xl font-bold text-teal-900 mb-4">
-   <br> Data Research Assistant - Brescia, Italy
+    <div class="max-w-5xl mx-auto-px-6">
+    <h1 class="text-4xl font-bold text-teal-900 mb-4">
+    Data Research Assistant - Brescia, Italy
     </h1>
 </div>
 </section>
