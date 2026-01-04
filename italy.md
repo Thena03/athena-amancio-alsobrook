@@ -51,10 +51,12 @@ Under the leadership of Associate Dean EllenMarie McPhillip and Vice Dean Soyeon
 Throughout the Spring 2025 semester, we learned research by applying the tools we learned in real time. We developed our own research questions, refined methodologies, and built analytical skills directly in the classroom. When we traveled to Brescia, we carried these tools with us, applying them to questions posed by Northern Italian organizations and corporations. Working across cultural and professional contexts, we translated classroom theory into practice, using research to inform decision-making and create tangible value for our partners.
 </p>
 
-
- <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+ <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
     <img src="{{ '/static/dean.jpg' | relative_url }}" alt="Going to Italy" class="rounded-xl shadow-sm">
+    <div class="flex flex-col gap-6">
     <img src="{{ '/static/cooking.jpg' | relative_url }}" alt="Cooking experience in italy" class="rounded-xl shadow-sm">
+    <img src="{{ '/static/flight.jpg' | relative_url }}" alt="Cooking experience in italy" class="rounded-xl shadow-sm">
+    </div>
     </div>
 </div>
 </section>
