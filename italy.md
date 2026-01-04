@@ -82,6 +82,8 @@ By creating data visualizations in R with the ggplot2 package, we communicated s
 <a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
       View our Presentation
     </a>
+</div>
+</section>
 
 <!-- ===== CTA ===== -->
 <section class="py-20">
