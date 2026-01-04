@@ -266,7 +266,7 @@ updateSlider(false);
       View Projects
     </a>
   </div>
-</section>
+
 
   <!-- Contact Icons -->
    <div class="flex justify-center gap-6">
@@ -280,7 +280,9 @@ updateSlider(false);
 
    <a href="https://github.com/Thena03" target="_blank" aria-label="GitHub">
         <img src="{{ '/static/icons/github.svg' | relative_url }}" alt="GitHub" class="w-6 h-6 opacity-70 hover:opacity-100 transition">
-      </a>
-    </div>
+      </a> <br>
+
+  </div>
+  </section>
 
 
