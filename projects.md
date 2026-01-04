@@ -7,7 +7,7 @@ permalink: /projects/
 
 <!-- ===== PROJECTS HEADER ===== -->
 <section class="py-20 bg-gradient-to-b from-teal-50 w-full to-white">
-  <div class="max-w-5xl mx-auto px-6 text-center">
+  <div class="max-w-5xl mx-auto px-6 text-center"> 
     <h1 class="text-4xl font-bold text-teal-800 mb-4">Projects</h1>
     <p class="text-lg text-gray-700">
       A selection of applied projects spanning sport science, data analysis, and social impact.
