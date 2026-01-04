@@ -31,14 +31,14 @@ permalink: /experience/
           <li>Assisted with hydration testing, thermography, and environmental monitoring</li>
           <li>Contributed to game-day sport science operations for an AP Top 25 and 2025 College Football Playoff Semifinalist team</li>
         </ul>
-        <a href="{{ 'athena-amancio-alsobrook/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+        <a href="{{ '/experience/sport-science' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
  <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
         <h3 class="text-xl font-semibold text-teal-600">Olympic Sports Science — University of Miami</h3>
         <p class="text-sm text-slate-500 mb-3">High-performance support · Olympic Athlete Monitoring</p>
         <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Provided applied sport science support to Olympic-level athletes in training and competition</li>
+          <li>Provided applied sport science support to Olympic-level athletes in training and competition across several Olympic sports including Track and Field, Volleyball, and Soccer.</li>
           <li>Implemented athlete monitoring protocols and performance analytics for high-stakes events</li>
         </ul>
       </div>
@@ -59,10 +59,10 @@ permalink: /experience/
         <h3 class="text-xl font-semibold text-teal-600">Data Research Assistant — School of Education & Human Development</h3>
         <p class="text-sm text-slate-500 mb-3">Applied Research · Cross-cultural Studies</p>
         <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Assisted in administering research on experiential learning as an alternative to didactic methods for teaching research methodology under the Vice Dean of Research, Dr. Soyeon Ahn</li>
+          <li>Assisted in administering research on experiential learning as an alternative to didactic methods for teaching research methodology under the University of Miami Vice Dean of Research, Dr. Soyeon Ahn</li>
           <li>Contributed to design and implementation of study, including applying and testing findings in Brescia, Italy to evaluate cross-cultural effectiveness</li>
         </ul>
-        <a href="/projects/#experiential-learning" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+        <a href="{{ '/experience/italy' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
@@ -73,52 +73,97 @@ permalink: /experience/
           <li>Utilized SWIFT-Review to screen and evaluate over 5,000 articles</li>
           <li>Supported development of evidence-based insights at the intersection of culture, mental health, and technology</li>
         </ul>
-        <a href="/projects/#mental-health-research" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+        <!--a href="/projects/#mental-health-research" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>-->
       </div>
 
-    </div>
+   </div>
   </div>
 </section>
 
 <!-- ===== CAMPUS INVOLVEMENT & LEADERSHIP ===== -->
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
+<!-- ===== CAMPUS INVOLVEMENT & LEADERSHIP ===== -->
+<section class="py-16 bg-slate-50">
+  <div class="max-w-6xl mx-auto px-6">
 
-<h2 class="text-3xl font-semibold text-slate-900 mb-10">Campus Involvement & Leadership</h2>
- <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+   <!-- Header + Navigation -->
+  <div class="flex items-center justify-between mb-10">
+      <h2 class="text-3xl font-semibold text-slate-900">
+        Campus Involvement & Leadership
+      </h2>
 
- <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-        <h3 class="text-xl font-semibold text-teal-600">Assistant to the Associate Dean</h3>
-        <p class="text-sm text-slate-500 mb-3">School of Education & Human Development · Program Development</p>
-        <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Supported development of undergraduate programs and student engagement initiatives</li>
-          <li>Assisted in planning campus-wide events and academic programs</li>
-        </ul>
-        <a href="/projects/#associate-dean" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
+   <div class="flex gap-3">
+        <button id="prevBtn" aria-label="Previous"
+          class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">
+          ←
+        </button>
+        <button id="nextBtn" aria-label="Next"
+          class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">
+          →
+        </button>
       </div>
-<div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-        <h3 class="text-xl font-semibold text-teal-600">Campus Director — Hult Prize Competition</h3>
-        <p class="text-sm text-slate-500 mb-3">Leadership · Entrepreneurship · Social Impact</p>
-        <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Directed student teams competing in the global Hult Prize competition</li>
-          <li>Coordinated mentorship, strategy sessions, and campus logistics</li>
-        </ul>
-        <a href="/projects/#hult-prize" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
-      </div>
+    </div>
 
-<div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
-        <h3 class="text-xl font-semibold text-teal-600">ASL Teaching Assistant (ASL 1–ASL 4)</h3>
-        <p class="text-sm text-slate-500 mb-3">Instructional Support · Communication</p>
-        <ul class="list-disc list-inside text-slate-700 space-y-2">
-          <li>Supported classroom instruction and student learning for multiple levels of ASL</li>
-          <li>Assisted with lesson planning, grading, and student engagement</li>
-        </ul>
-        <a href="/projects/#asl-teaching" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
-      </div>
+   <!-- Slider viewport -->
+  <div class="overflow-hidden">
+      <div
+        id="slider"
+        class="flex transition-transform duration-300 ease-in-out">
 
-  </div>
+   <!-- SLIDE 1 -->
+   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
+            <h3 class="text-xl font-semibold text-teal-600">
+              Assistant to the Associate Dean
+            </h3>
+            <p class="text-sm text-slate-500 mb-3">
+              School of Education & Human Development · Program Development
+            </p>
+            <ul class="list-disc list-inside text-slate-700 space-y-2">
+              <li>Supported development of undergraduate programs and student engagement initiatives</li>
+              <li>Assisted in planning campus-wide events and academic programs</li>
+            </ul>
+          </div>
+        </div>
+
+   <!-- SLIDE 2 -->
+  <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
+            <h3 class="text-xl font-semibold text-teal-600">
+              Campus Director — Hult Prize Competition
+            </h3>
+            <p class="text-sm text-slate-500 mb-3">
+              Leadership · Entrepreneurship · Social Impact
+            </p>
+            <ul class="list-disc list-inside text-slate-700 space-y-2">
+              <li>Directed student teams competing in the global Hult Prize competition</li>
+              <li>Coordinated mentorship, strategy sessions, and campus logistics</li>
+            </ul>
+          </div>
+        </div>
+
+  <!-- SLIDE 3 -->
+   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+          <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
+            <h3 class="text-xl font-semibold text-teal-600">
+              ASL Teaching Assistant (ASL 1–ASL 4)
+            </h3>
+            <p class="text-sm text-slate-500 mb-3">
+              Instructional Support · Communication
+            </p>
+            <ul class="list-disc list-inside text-slate-700 space-y-2">
+              <li>Supported classroom instruction and student learning</li>
+              <li>Assisted with lesson planning, grading, and engagement</li>
+            </ul>
+          </div>
+        </div>
+
+   </div>
+    </div>
   </div>
 </section>
+
 <!-- ===== VOLUNTEERING ===== -->
 <section class="py-16 bg-slate-50 w-full">
   <div class="max-w-6xl mx-auto px-6">
@@ -132,7 +177,7 @@ permalink: /experience/
    <!-- MDOS Leadership -->
    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
         <h3 class="text-xl font-semibold text-teal-700 mb-1">
-          MDOS External Logistics Chair
+          MDOS External Logistics Chair (2025 - 2026)
         </h3>
 
    <p class="text-sm text-slate-500 mb-3">

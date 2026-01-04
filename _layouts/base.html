@@ -13,6 +13,73 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
 </head>
 
+<script>
+const slider = document.getElementById("slider");
+if (!slider) return;
+
+const nextBtn = document.getElementById("nextBtn");
+const prevBtn = document.getElementById("prevBtn");
+
+  function getSlidesPerView() {
+    return window.innerWidth >= 768 ? 2 : 1;
+  }
+
+  function cloneSlides() {
+    slidesPerView = getSlidesPerView();
+    slider.innerHTML = "";
+
+    const startClones = slides.slice(-slidesPerView).map(s => s.cloneNode(true));
+    const endClones = slides.slice(0, slidesPerView).map(s => s.cloneNode(true));
+
+    startClones.forEach(s => slider.appendChild(s));
+    slides.forEach(s => slider.appendChild(s));
+    endClones.forEach(s => slider.appendChild(s));
+  }
+
+  function updateTransform(animate = true) {
+    slider.style.transition = animate ? "transform 0.3s ease-in-out" : "none";
+    slider.style.transform = `translateX(-${index * (100 / slidesPerView)}%)`;
+  }
+
+  function init() {
+    cloneSlides();
+    updateTransform(false);
+  }
+
+  nextBtn.addEventListener("click", () => {
+    index++;
+    updateTransform();
+
+    if (index >= slides.length + slidesPerView) {
+      setTimeout(() => {
+        index = slidesPerView;
+        updateTransform(false);
+      }, 300);
+    }
+  });
+
+  prevBtn.addEventListener("click", () => {
+    index--;
+    updateTransform();
+
+    if (index < 0) {
+      setTimeout(() => {
+        index = slides.length;
+        updateTransform(false);
+      }, 300);
+    }
+  });
+
+  window.addEventListener("resize", () => {
+    index = slidesPerView;
+    init();
+  });
+
+  init();
+</script>
+
+</script>
+
 <body class="bg-white text-slate-900 min-h-screen flex flex-col overflow-x-hidden">
 
   <!-- ===== NAVBAR ===== -->

@@ -123,6 +123,7 @@ permalink: /
           Supported digital solutions promoting sustainable farming practices across Europe
           through data analysis and visualization.
         </p>
+          <a href="{{ '/experience/italy' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
   <!-- NFL Project -->
@@ -134,6 +135,9 @@ permalink: /
         <p class="text-slate-700">
           A statistical analysis evaluating the impact of 40-yard dash times on NFL draft outcomes.
         </p>
+                <a href="https://www.linkedin.com/posts/athena-a-alsobrook-133b731b0_nfl-draft-wide-receiver-40-yard-analysis-activity-7322663052972077058-x5Ss?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFLT_cBNIdfZFzE_WfUfUtUrN8IRyWbVfU" class="text-teal-700 font-medium hover:underline">
+          View Project →
+        </a>
       </div>
 
   </div>

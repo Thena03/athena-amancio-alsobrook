@@ -109,7 +109,7 @@ This study analyzed data from the 2015 to 2024 draft classes to investigate whet
           Shiny App: Jump Asymmetry Analysis in Division I Football Players
         </h3>
         <p class="text-gray-700 mb-4">
-Developed an interactive R Shiny dashboard to calculate and visualize bilateral jump asymmetries for a Division I Football Program using Hawkins Dynamics API. 
+Developed an interactive R Shiny dashboard to calculate and visualize bilateral jump asymmetries for a Division I Football Program using Hawkins Dynamics API.  <br> <strong> Please note that mock data was used in the visual shown above. </strong>
         </p>
         <p class="text-sm text-gray-500 mb-4">
           Applied Sport Science · R (Shiny)

@@ -7,7 +7,7 @@ permalink: /experience/sport-science
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
     <h1 class="text-4xl font-bold text-slate-900 mb-4">
-      Sport Science — University of Miami Football
+      <br> Sport Science — University of Miami Football
     </h1>
     <p class="text-lg text-slate-700">
       Applied sport science support within a Power Five football program, integrating athlete monitoring,
@@ -100,7 +100,7 @@ permalink: /experience/sport-science
 
  <!-- Thermography Images -->
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <img src="{{ '/static/thermaljpg' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
+      <img src="{{ '/static/thermal.jpg' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
     </div>
   </div>
 </section>
@@ -113,12 +113,31 @@ permalink: /experience/sport-science
     </h2>
 
  <h3 class="text-xl font-semibold text-teal-600 mb-4">Dynaspeed & Force Plate Testing</h3>
-
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-10">
-      <img src="{{ '/static/dynaspeed.jpg' | relative_url }}" alt="Dynaspeed high-speed resistance training" class="rounded-xl shadow-sm">
-      <img src="{{ '/static/forceplate.jpg' | relative_url }}" alt="Hawkins force plate testing" class="rounded-xl shadow-sm">
-    <img src="{{ '/static/forceplate2.jpg' | relative_url }}" alt="Hawkins force plate testing" class="rounded-xl shadow-sm">
-    </div>
+  
+  <!-- Dynaspeed -->
+  <img
+    src="{{ '/static/dynaspeed.jpg' | relative_url }}"
+    alt="Dynaspeed high-speed resistance training"
+    class="rounded-xl shadow-sm"
+  >
+
+  <!-- Force plates stacked -->
+  <div class="flex flex-col gap-6">
+    <img
+      src="{{ '/static/forceplate.jpg' | relative_url }}"
+      alt="Hawkins force plate testing"
+      class="rounded-xl shadow-sm"
+    >
+    <img
+      src="{{ '/static/forceplate2.jpg' | relative_url }}"
+      alt="Hawkins force plate testing"
+      class="rounded-xl shadow-sm"
+    >
+  </div>
+
+</div>
+
   </div>
 </section>
 
@@ -137,6 +156,7 @@ permalink: /experience/sport-science
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <img src="{{ '/static/gameday.jpg' | relative_url }}" alt="Game day sport science operations" class="rounded-xl shadow-sm">
       <img src="{{ '/static/proday.jpg' | relative_url }}" alt="NFL Pro Day performance monitoring" class="rounded-xl shadow-sm">
+      <img src="{{ '/static/squad.jpg' | relative_url }}" alt="Game day performance monitoring" class="rounded-xl shadow-sm">
     </div>
   </div>
 </section>
