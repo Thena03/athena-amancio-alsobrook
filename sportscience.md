@@ -92,16 +92,20 @@ permalink: /experience/sport-science
       Infrared Thermography Leadership
     </h2>
 
- <p class="text-slate-700 max-w-4xl mb-8">
-      During the <strong>2025 football regular season</strong>, Athena assumed a lead role in
-      <strong>infrared thermography data collection</strong>, ensuring consistent imaging protocols,
-      data integrity, and timely reporting to the sport science and performance staff.
-    </p>
+ <!-- Flex container for image and text -->
+<div class="md:flex md:items-center md:gap-10">
 
  <!-- Thermography Images -->
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <img src="{{ '/static/thermal.jpg' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
     </div>
+
+ <p class="text-slate-700 max-w-4xl mb-8">
+      During the <strong>2025 football regular season</strong>, Athena assumed a lead role in
+      <strong>infrared thermography data collection</strong>, ensuring consistent imaging protocols,
+      data integrity, and timely reporting to the sport science and performance staff.
+    </p>
+</div>
   </div>
 </section>
 

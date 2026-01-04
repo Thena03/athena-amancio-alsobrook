@@ -6,8 +6,8 @@ permalink: /experience/italy
 
 <section class="py-20">
 <div class="max-w-5xl mx-auto-px-6">
-<h1 class="text-4xl font-bold text-slate-900 mb-4">
-    Data Research Assistant - Brescia, Italy
+<h1 class="text-4xl font-bold text-teal-900 mb-4">
+   <br> Data Research Assistant - Brescia, Italy
     </h1>
 </div>
 </section>
@@ -16,18 +16,29 @@ permalink: /experience/italy
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
     <h2 class="text-3xl font-semibold text-slate-900 mb-6">Overview</h2>
-  <!-- Hero Image -->
-  <div class="md:w-1/2">
-      <img src="{{ '/static/justme.jpg' | relative_url }}" alt="Presentation" class="rounded-xl shadow-lg">
-    </div>
-<p class="text-slate-700 leading-relaxed max-w-4xl">
-In collaboration with the University of Miami School of Education and Human Development, ST Sicily, and the CSMT Innovation Hub, my partner Stella York and I evaluated the agricultural software Sandy. The platform is designed to calculate carbon emissions for European farms by analyzing key variables such as tillage methods, soil types, and crop choices. 
-<br><br>
-Our work involved testing and analyzing the software to understand its capabilities and limitations, translating technical data into actionable insights that could support more sustainable farming practices across the region.
-</p>
 
-</div>
+ <!-- Flex container for image and text -->
+<div class="md:flex md:items-center md:gap-10">
+      
+ <!-- Hero Image -->
+<div class="md:w-1/2 mb-6 md:mb-0">
+        <img src="{{ '/static/justme.jpg' | relative_url }}" alt="Presentation" class="rounded-xl shadow-lg">
+      </div>
+
+  <!-- Text -->
+ <div class="md:w-1/2">
+        <p class="text-slate-700 leading-relaxed">
+          In collaboration with the University of Miami School of Education and Human Development, ST Sicily, and the CSMT Innovation Hub, my partner Stella York and I evaluated the agricultural software Sandy. The platform is designed to calculate carbon emissions for European farms by analyzing key variables such as tillage methods, soil types, and crop choices.
+          <br><br>
+          Our work involved testing and analyzing the software to understand its capabilities and limitations, translating technical data into actionable insights that could support more sustainable farming practices across the region.
+        </p>
+      </div>
+
+  
+  </div>
+  </div>
 </section>
+
 
 <section class="py-16">
   <div class="max-w-6xl mx-auto px-6">
@@ -54,7 +65,7 @@ Throughout the Spring 2025 semester, we learned research by applying the tools w
       The Impact
     </h2>
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-    <img src="{{ '/static/stellakillinit.jpg' | relative_url }}" alt="Stella and I presenting" class="rounded-xl shadow-sm">
+    <img src="{{ '/static/presthena.jpg' | relative_url }}" alt="Stella and I presenting" class="rounded-xl shadow-sm">
     <img src="{{ '/static/presthena2.jpg' | relative_url }}" alt="Presenting in italy" class="rounded-xl shadow-sm">
         <img src="{{ '/static/stellapres.JPG' | relative_url }}" alt="Presentation part 2" class="rounded-xl shadow-sm">
     </div>
