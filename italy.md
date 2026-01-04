@@ -7,7 +7,7 @@ permalink: /experience/italy
 <!-- ===== HEADER ===== -->
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
-    <h1 class="text-4xl font-bold text-center text-slate-900 mb-4">
+    <h1 class="text-4xl font-bold text-center text-teal-900 mb-4">
       <br> Data Research Assistant - Brescia, Italy
     </h1>
 
@@ -17,7 +17,7 @@ permalink: /experience/italy
 <!-- Overview -->
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-slate-900 mb-6">Overview</h2>
+    <h2 class="text-3xl font-semibold text-teal-900 mb-6">Overview</h2>
 
  <!-- Flex container for image and text -->
 <div class="md:flex md:items-center md:gap-10">
@@ -44,7 +44,7 @@ permalink: /experience/italy
 
 <section class="py-16">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-slate-900 mb-10">
+    <h2 class="text-3xl font-semibold text-teal-900 mb-10">
       Cross-Cultural Research
     </h2> <br>
 <p class="text-slate-700 max-w-4xl mb-8">
@@ -66,7 +66,7 @@ Throughout the Spring 2025 semester, we learned research by applying the tools w
 
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-slate-900 mb-10">
+    <h2 class="text-3xl font-semibold text-teal-900 mb-10">
       The Impact
     </h2>
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">

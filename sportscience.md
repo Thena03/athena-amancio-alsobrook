@@ -6,7 +6,7 @@ permalink: /experience/sport-science
 <!-- ===== HEADER ===== -->
 <section class="py-20">
   <div class="max-w-5xl mx-auto px-6">
-    <h1 class="text-4xl font-bold text-slate-900 mb-4">
+    <h1 class="text-4xl font-bold text-teal-900 mb-4">
       <br> Sport Science — University of Miami Football
     </h1>
     <p class="text-lg text-slate-700">
@@ -19,7 +19,7 @@ permalink: /experience/sport-science
 <!-- ===== OVERVIEW ===== -->
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-slate-900 mb-6">Program Impact & Tenure</h2>
+    <h2 class="text-3xl font-semibold text-teal-900 mb-6">Program Impact & Tenure</h2>
 
 <p class="text-slate-700 leading-relaxed max-w-4xl">
       Athena Amancio-Alsobrook has contributed to the University of Miami Football Sport Science program
@@ -44,7 +44,7 @@ permalink: /experience/sport-science
 <!-- ===== TECHNOLOGY & DATA SYSTEMS ===== -->
 <section class="py-16">
   <div class="max-w-6xl mx-auto px-6">
-    <h2 class="text-3xl font-semibold text-slate-900 mb-10">
+    <h2 class="text-3xl font-semibold text-teal-900 mb-10">
       Athlete Monitoring & Performance Technologies
     </h2>
 
