@@ -31,8 +31,8 @@ permalink: /about/
 </section>
 
 <!-- ===== IMAGE HIGHLIGHTS / ACTIVITIES ===== -->
-<section class="section py-16 bg-white">
-  <div class="container text-center">
+<section class="py-16">
+  <div class="max-w-6xl mx-auto px-6">
     <h3 class="text-3xl font-bold text-slate-900 mb-8">Campus & Sport Science Highlights</h3>
     <div class="grid md:grid-cols-3 gap-8">
       
@@ -40,14 +40,14 @@ permalink: /about/
         <img src="{{ '/static/MDOS.jpg' | relative_url }}" alt="Campus involvement" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Campus Leadership</h4>
         <p class="text-slate-700">Athena contributes to student programs and leadership initiatives on campus.</p> <br>
-       <a href="{{ '/experience/' | relative_url }}" class="block px-3 py-2 rounded text-slate-600 hover:bg-slate-100">Learn More →</a>
+       <a href="{{ '/experience/' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
       </div>
 
   <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/volunteer.jpg' | relative_url }}" alt="Volunteering" class="rounded-lg mb-4">
         <h4 class="text-xl font-semibold mb-2 text-slate-900">Volunteering</h4>
         <p class="text-slate-700">Supports local community initiatives in health, wellness, and social impact.</p> <br>
-         <a href="https://news.miami.edu/alumni/stories/2024/08/volunteerism-is-a-way-of-giving-back.html" target="_blank" class="px-6 py-3 bg-teal-100 text-teal-900 rounded-lg font-semibold hover:bg-teal-200 transition">Learn more about my volunteering efforts →</a>
+         <a href="https://news.miami.edu/alumni/stories/2024/08/volunteerism-is-a-way-of-giving-back.html" target="_blank" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn more →</a>
       </div>
 
    <div class="card p-4 bg-slate-50 rounded-xl shadow hover:shadow-lg transition">
