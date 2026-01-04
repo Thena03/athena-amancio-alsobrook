@@ -133,6 +133,9 @@ Created a player-facing deliverable translating individual thermal imaging resul
       </div>
 
  </div>
+         <a href="https://github.com/Thena03" class="text-teal-700 font-medium hover:underline">
+          View More Projects →
+        </a>
   </div>
 </section>
 
