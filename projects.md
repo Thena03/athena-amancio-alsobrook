@@ -63,9 +63,9 @@ permalink: /projects/
     <img src="{{ '/static/icons/tiktok.svg' | relative_url }}" alt="TikTok" class="w-5 h-5">
     TikTok
   </a>
-</div>
+</div> <br><br>
         <p class="text-sm text-gray-500 mb-4">
-          Python (Flask) · PostgreSQL · Javascript · HTML/CSS
+          R Programming · Python (Flask) · PostgreSQL · Javascript · HTML/CSS
         </p>
       </div>
 
