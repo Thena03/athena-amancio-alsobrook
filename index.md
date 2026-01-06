@@ -19,9 +19,7 @@ permalink: /
       </h2>
 
    <p class="text-slate-700 mb-8 leading-relaxed">
-        Athena explores human performance and athlete well-being through applied
-        sport science, research, and data-driven insights. Her work focuses on
-        translating complex data into actionable outcomes for athletes and organizations.
+Athena explores human performance and well-being through applied sport science, research, and data-driven insights. She uses her expertise to create positive social impact, helping organizations and communities make informed decisions that improve health, equity, and quality of life.
       </p>
 
   <div class="flex flex-wrap gap-4">
