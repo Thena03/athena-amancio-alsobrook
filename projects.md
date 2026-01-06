@@ -181,9 +181,13 @@ Created a player-facing deliverable translating individual thermal imaging resul
           ReadPal
         </h3>
         <p class="text-gray-700 mb-4">
-          A social impact project focused on improving literacy access through
-          data-informed educational tools using Google's Gemini AI Agent.
+ReadPal is an AI-powered reading assistant designed to help students improve comprehension and engage with texts more effectively. It demonstrates how Google AI Studio can be used to create intelligent educational tools.
+<br><br>
+Note: ReadPal is currently in demo/development mode as I explore the capabilities of Google AI Studio. The AI features are not fully operational online and are intended for local testing and experimentation.
         </p>
+        <a href="https://github.com/Thena03/ReadPal" class="text-teal-700 font-medium hover:underline">
+          View Project →
+        </a>
         <p class="text-sm text-gray-500 mb-4">
           Education · Social Impact · AI
         </p>
@@ -243,7 +247,7 @@ Created a player-facing deliverable translating individual thermal imaging resul
         Back to Home
       </a>
     </div>
-
+<br>
   <!-- Contact Icons -->
    <div class="flex justify-center gap-6">
       <a href="mailto:aamancioalsobrook@gmail.com" aria-label="Email">
