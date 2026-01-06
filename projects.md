@@ -64,6 +64,9 @@ permalink: /projects/
     TikTok
   </a>
 </div>
+        <p class="text-sm text-gray-500 mb-4">
+          Python (Flask) · PostgreSQL · Javascript · HTML/CSS
+        </p>
       </div>
 
 </div>
