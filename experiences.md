@@ -11,8 +11,8 @@ permalink: /experience/
     <p class="text-lg text-slate-700">
       Applied experience across sport science, research support, campus leadership, and community service.
     </p>
-
-  <a href="{{ '/static/assets/resume.pdf' | relative_url }}" 
+  <br><br>
+  <a href="{{ '/static/assets/athena-a-resume.pdf' | relative_url }}" 
        download
        class="inline-block px-6 py-3 rounded-xl bg-teal-600 text-white font-medium hover:bg-teal-500 transition">
       Download Résumé
