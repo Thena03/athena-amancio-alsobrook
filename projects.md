@@ -161,7 +161,9 @@ Created a player-facing deliverable translating individual thermal imaging resul
         Rooted in Sustainability: Digital Solutions for Sustainable Agriculture with RuRall
         </h3>
         <p class="text-gray-700 mb-4">
- In collaboration with Stella York and the Italian agricultural digital hub, RuRall, we identified bugs in the developing agricultural software company, Sandy, which calculates carbon emissions from European farms to provide sustainability consultations. We supported RuRall’s decision on a potential partnership with the software company to promote sustainable farming in Brescia, and created visualizations that were later featured by the company’s data scientist in a presentation on carbon reduction strategies in Venice, Italy.
+ In collaboration with Stella York and the Italian agricultural digital hub, RuRall, we identified bugs in the developing agricultural software company, Sandy, which calculates carbon emissions from European farms to provide sustainability consultations. 
+ <br><br>
+ We supported RuRall’s decision on a potential partnership with the software company to promote sustainable farming in Brescia, and created visualizations that were later featured by the company’s data scientist in a presentation on carbon reduction strategies in Venice, Italy.
         </p>
                
 <a href="https://www.canva.com/design/DAG9YN5AqCs/N386IWGCPEY15BUjLLpi4w/edit?utm_content=DAG9YN5AqCs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="text-teal-700 font-medium hover:underline">
@@ -207,7 +209,7 @@ Note: ReadPal is currently in demo/development mode as I explore the capabilitie
   Excelerate 
         </h3>
         <p class="text-gray-700 mb-4">
- Designed to be a resource for individuals looking to improve their data skills using Excel.
+ This platform is a beginner-friendly guide to mastering the fundamentals of Excel. Perfect for students, professionals, or anyone looking to confidently navigate spreadsheets, it covers essential skills such as entering and organizing data, using basic formulas and functions, creating charts, and formatting worksheets. With clear explanations, step-by-step instructions, and practical examples, it’s designed to help learners build a strong foundation in Excel and develop the confidence to tackle everyday spreadsheet tasks with ease.
         </p>
                
 <a href="https://thena03.github.io/ExcelEd/" class="text-teal-700 font-medium hover:underline">
