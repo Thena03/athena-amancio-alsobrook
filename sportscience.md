@@ -30,8 +30,8 @@ permalink: /experience/sport-science
  <ul class="list-disc list-inside text-slate-700 mt-6 space-y-2">
       <li>Two consecutive <strong>AP Top 25</strong> finishes</li>
       <li><strong>10+ win seasons</strong></li>
-      <li>Development of a <strong>No. 1 overall NFL Draft pick</strong></li>
-      <li><strong>2025 College Football Playoff Semifinal appearance</strong></li>
+      <li>Development of the <strong>No. 1 overall 2025 NFL Draft pick</strong></li>
+      <li><strong>2025 College Football Playoff National Championship appearance</strong></li>
     </ul>
 
 <p class="text-slate-700 mt-6 max-w-4xl">
@@ -97,7 +97,7 @@ permalink: /experience/sport-science
 
  <!-- Thermography Images -->
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <img src="{{ '/static/thermal.jpg' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
+      <img src="{{ '/static/thermalfinal.png' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
     </div>
 
  <p class="text-slate-700 max-w-4xl mb-8">
