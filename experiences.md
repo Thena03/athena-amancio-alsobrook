@@ -89,20 +89,20 @@ permalink: /experience/
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
 
-    <!-- Header + Navigation -->
-    <div class="flex items-center justify-between mb-10">
+  <!-- Header + Navigation -->
+  <div class="flex items-center justify-between mb-10">
       <h2 class="text-3xl font-semibold text-slate-900">
         Campus Involvement & Leadership
       </h2>
 
-      <div class="flex gap-3">
+   <div class="flex gap-3">
         <button id="prevBtn" aria-label="Previous" class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">←</button>
         <button id="nextBtn" aria-label="Next" class="p-2 rounded-full border border-slate-300 hover:bg-slate-100">→</button>
       </div>
     </div>
 
-    <!-- Slider viewport -->
-    <div class="overflow-hidden">
+   <!-- Slider viewport -->
+  <div class="overflow-hidden">
       <div id="slider" class="flex transition-transform duration-300 ease-in-out">
         <!-- Slide 1 -->
         <div class="min-w-full md:min-w-1/2 px-2" data-slide>
@@ -116,8 +116,8 @@ permalink: /experience/
           </div>
         </div>
 
-        <!-- Slide 2 -->
-        <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+   <!-- Slide 2 -->
+   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
             <h3 class="text-xl font-semibold text-teal-600">Campus Director — Hult Prize Competition</h3>
             <p class="text-sm text-slate-500 mb-3">Leadership · Entrepreneurship · Social Impact</p>
@@ -128,8 +128,8 @@ permalink: /experience/
           </div>
         </div>
 
-        <!-- Slide 3 -->
-        <div class="min-w-full md:min-w-1/2 px-2" data-slide>
+  <!-- Slide 3 -->
+   <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
             <h3 class="text-xl font-semibold text-teal-600">ASL Teaching Assistant (ASL 1–ASL 4)</h3>
             <p class="text-sm text-slate-500 mb-3">Instructional Support · Communication</p>
