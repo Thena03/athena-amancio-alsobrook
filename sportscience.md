@@ -23,7 +23,7 @@ permalink: /experience/sport-science
 
 <p class="text-slate-700 leading-relaxed max-w-4xl">
       Athena Amancio-Alsobrook has contributed to the University of Miami Football Sport Science program
-      since <strong>Spring 2023</strong>. During this period, the program experienced sustained competitive
+      since <strong>Spring 2024</strong>. During this period, the program experienced sustained competitive
       success, including:
     </p>
 
