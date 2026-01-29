@@ -211,6 +211,7 @@ updateSlider(false);
 
    <!-- MDOS Leadership -->
    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+   <img src="{{ '/static/MDOSeboard.jpg' | relative_url }}" class="rounded-lg mb-4" alt="MDOS External Logisitics Chair">
         <h3 class="text-xl font-semibold text-teal-700 mb-1">
           MDOS External Logistics Chair (2025 - 2026)
         </h3>
