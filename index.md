@@ -111,7 +111,18 @@ Athena explores human performance and well-being through applied sport science, 
         </a>
       </div>
 
-
+  <!-- RuRall -->
+  <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/DAISI.jpg' | relative_url }}" class="rounded-lg mb-4" alt="RuRall Project">
+        <h4 class="text-xl font-semibold text-slate-900 mb-2">
+          Sustainable Agriculture with RuRall
+        </h4>
+        <p class="text-slate-700">
+          Supported digital solutions promoting sustainable farming practices across Europe
+          through data analysis and visualization.
+        </p>
+      </div>
+      
   <!-- NFL Project -->
   <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
         <img src="{{ '/static/40yard.png' | relative_url }}" class="rounded-lg mb-4" alt="NFL Draft Analysis">
