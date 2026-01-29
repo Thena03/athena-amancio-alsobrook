@@ -111,18 +111,6 @@ Athena explores human performance and well-being through applied sport science, 
         </a>
       </div>
 
-  <!-- RuRall -->
-  <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
-        <img src="{{ '/static/DAISI.jpg' | relative_url }}" class="rounded-lg mb-4" alt="RuRall Project">
-        <h4 class="text-xl font-semibold text-slate-900 mb-2">
-          Sustainable Agriculture with RuRall
-        </h4>
-        <p class="text-slate-700">
-          Developed digital solutions in order to promote sustainable farming practices across Europe
-          through data analysis and visualization.
-        </p>
-          <a href="{{ '/experience/italy' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
-      </div>
 
   <!-- NFL Project -->
   <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
@@ -135,6 +123,47 @@ Athena explores human performance and well-being through applied sport science, 
         </p>
                 <a href="https://www.linkedin.com/posts/athena-a-alsobrook-133b731b0_nfl-draft-wide-receiver-40-yard-analysis-activity-7322663052972077058-x5Ss?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFLT_cBNIdfZFzE_WfUfUtUrN8IRyWbVfU" class="text-teal-700 font-medium hover:underline">
           View Project →
+        </a>
+      </div>
+
+  </div>
+  </div>
+</section>
+
+<!-- Featured Articles -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-6 text-center">
+
+<h3 class="text-3xl font-bold text-slate-900 mb-12">
+      Featured Articles
+    </h3>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+  <!-- LearnR -->
+  <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/presthena2.jpg' | relative_url }}" class="rounded-lg mb-4" alt="DAISI Student Spotlight">
+        <h4 class="text-xl font-semibold text-slate-900 mb-2">DAISI Student Spotlight: Redefining Social Impact Through Data Science</h4>
+        <p class="text-slate-700 mb-4">
+          Highlighted for my work in creating online learning modules that makes data literacy more accessible for individuals of all age groups and backgrounds.
+        </p>
+        <a href="https://news.miami.edu/edu/stories/2026/01/daisi-student-spotlight.html" target="_blank"
+           class="inline-block mt-auto px-5 py-3 bg-teal-700 text-white rounded-lg font-medium hover:bg-teal-800 transition">
+          Learn More
+        </a>
+      </div>
+
+  <!-- Volunteerism-->
+  <div class="bg-white p-6 rounded-xl shadow hover:shadow-lg transition">
+        <img src="{{ '/static/volunteerism.png' | relative_url }}" class="rounded-lg mb-4" alt="NFL Draft Analysis">
+        <h4 class="text-xl font-semibold text-slate-900 mb-2">
+          Volunteerism is a way of giving back
+        </h4>
+        <p class="text-slate-700">
+I was honored to be featured by the University of Miami Butler Center for Service and Leadership, sharing my perspective on why giving back to our communities matters.
+        </p>
+                <a href="https://news.miami.edu/alumni/stories/2024/08/volunteerism-is-a-way-of-giving-back.html" class="text-teal-700 font-medium hover:underline">
+          View Article →
         </a>
       </div>
 
