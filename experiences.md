@@ -30,6 +30,7 @@ permalink: /experience/
 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 
 <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+    <img src="{{ '/static/sportscience2026.jpg' | relative_url }}" class="rounded-lg mb-4" alt="Volunteer Resume">
         <h3 class="text-xl font-semibold text-teal-600"> Football Sport Science — University of Miami Athletics</h3>
         <p class="text-sm text-slate-500 mb-3">Football · Athlete Monitoring · Performance Support</p>
         <ul class="list-disc list-inside text-slate-700 space-y-2">
@@ -235,6 +236,7 @@ updateSlider(false);
 
   <!-- General Volunteering -->
    <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm">
+    <img src="{{ '/static/communitycover2026.jpg' | relative_url }}" class="rounded-lg mb-4" alt="Volunteer Resume">
         <h3 class="text-xl font-semibold text-teal-700 mb-1">
           Community Volunteering Experience
         </h3>
