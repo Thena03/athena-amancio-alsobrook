@@ -20,6 +20,7 @@ As Campus Director at the University of Miami, I lead the official campus compet
 <!-- ===== OVERVIEW ===== -->
 <section class="py-16 bg-slate-50">
   <div class="max-w-6xl mx-auto px-6">
+ <img src="{{ '/static/hult/soyeonyyo.jpg' | relative_url }}" alt="Me and Soyeon" class="rounded-xl shadow-sm">
     <h2 class="text-3xl font-semibold text-teal-900 mb-6">Historic First for the School of Education and Human Development</h2>
 
 <p class="text-slate-700 leading-relaxed max-w-4xl">
@@ -71,9 +72,9 @@ Hosting the Hult Prize within SEHD redefines the traditional boundaries of educa
 
  <!-- Thermography Images -->
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <img src="{{ '/static/hult/soyeonyyo.jpg' | relative_url }}" alt="Me and Soyeon" class="rounded-xl shadow-sm">
+       <img src="{{ '/static/hult/speaking.jpg' | relative_url }}" alt="Speaking at Hult Prize" class="rounded-xl shadow-sm">
     </div>
-
+<br>
   <div>
         <h3 class="text-xl font-semibold text-teal-600 mb-3">Through the Hult Prize, I help cultivate:</h3>
         <ul class="list-disc list-inside text-slate-700 space-y-2">
@@ -82,7 +83,7 @@ Hosting the Hult Prize within SEHD redefines the traditional boundaries of educa
           <li>Leadership development in high-pressure, pitch-based environments</li>
           <li>Exposure to entrepreneurship ecosystems beyond campus</li>
         </ul>
-      </div>
+      </div> <br>
     <p class="text-slate-700 leading-relaxed max-w-4xl">
     By creating space for bold thinking and scalable impact, I empower students to move from ideas to implementation — reinforcing my commitment to impact-driven leadership and systems-level problem solving.
     </p>
@@ -90,9 +91,8 @@ Hosting the Hult Prize within SEHD redefines the traditional boundaries of educa
   </div>
 
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <img src="{{ '/static/hult/speaking.jpg' | relative_url }}" alt="Speaking at Hult Prize" class="rounded-xl shadow-sm">
-      <img src="{{ '/static/hult/linkedin.jpg' | relative_url }}" alt="Just me." class="rounded-xl shadow-sm">
-    </div>
+
+   <img src="{{ '/static/hult/linkedin.jpg' | relative_url }}" alt="Just me." class="rounded-xl shadow-sm">
   </div>
 </section>
 
