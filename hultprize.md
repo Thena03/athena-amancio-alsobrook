@@ -71,7 +71,7 @@ Hosting the Hult Prize within SEHD redefines the traditional boundaries of educa
 
  <!-- Thermography Images -->
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <img src="{{ '/static/hult/thermalfinal.png' | relative_url }}" alt="Infrared thermography data collection" class="rounded-xl shadow-sm">
+      <img src="{{ '/static/hult/soyeonyyo.jpg' | relative_url }}" alt="Me and Soyeon" class="rounded-xl shadow-sm">
     </div>
 
   <div>
@@ -91,8 +91,7 @@ Hosting the Hult Prize within SEHD redefines the traditional boundaries of educa
 
  <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <img src="{{ '/static/hult/speaking.jpg' | relative_url }}" alt="Speaking at Hult Prize" class="rounded-xl shadow-sm">
-      <img src="{{ '/static/hult/soyeonyyo.jpg' | relative_url }}" alt="Me and Soyeon" class="rounded-xl shadow-sm">
-      <img src="{{ '/static/linkedin.jpg' | relative_url }}" alt="Just me." class="rounded-xl shadow-sm">
+      <img src="{{ '/static/hult/linkedin.jpg' | relative_url }}" alt="Just me." class="rounded-xl shadow-sm">
     </div>
   </div>
 </section>
