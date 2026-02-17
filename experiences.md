@@ -127,6 +127,7 @@ permalink: /experience/
               <li>Directed student teams competing in the global Hult Prize competition</li>
               <li>Coordinated mentorship, strategy sessions, and campus logistics</li>
             </ul>
+            <a href="{{ '/experience/hult-prize' | relative_url }}" class="mt-4 inline-block text-teal-600 hover:text-teal-800 font-medium">Learn More →</a>
           </div>
         </div>
 
