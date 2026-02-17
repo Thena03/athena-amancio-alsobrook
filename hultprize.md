@@ -46,7 +46,7 @@ permalink: /experience/hult-prize
   </p>
       </div>
 
-    </div>
+   </div>
   </div>
 </section>
 
@@ -94,8 +94,7 @@ permalink: /experience/hult-prize
       Student Impact & Innovation Development
     </h2>
 
-   <div class="grid md:grid-cols-2 gap-12 items-center">
-      <!-- Image 
+   <!-- Image 
       <div>
         <img 
           src="{{ '/static/hult/speaking.jpg' | relative_url }}" 
@@ -104,6 +103,16 @@ permalink: /experience/hult-prize
         >
       </div> -->
 
+  <div class="grid md:grid-cols-2 gap-12 items-center">
+      
+   <!-- Image -->
+  <div class="mt-12 max-w-3xl mx-auto">
+      <img 
+        src="{{ '/static/hult/linkedin.jpg' | relative_url }}" 
+        alt="LinkedIn photo"
+        class="w-full rounded-2xl shadow-md object-cover"
+      >
+    </div>
    <!-- Text -->
    <div>
         <h3 class="text-xl font-semibold text-teal-600 mb-4">
@@ -124,14 +133,6 @@ permalink: /experience/hult-prize
 
   </div>
 
-   <!-- Bottom Image -->
-  <div class="mt-12 max-w-3xl mx-auto">
-      <img 
-        src="{{ '/static/hult/linkedin.jpg' | relative_url }}" 
-        alt="LinkedIn photo"
-        class="w-full rounded-2xl shadow-md object-cover"
-      >
-    </div>
 
   </div>
 </section>
