@@ -118,7 +118,7 @@ permalink: /experience/hult-prize
         </ul>
 
   <p class="text-slate-700 leading-relaxed">
-          By creating space for bold thinking and scalable impact, I empower students to move from ideas to implementation — reinforcing my commitment to impact-driven leadership and systems-level problem solving.
+          By creating space for bold thinking and scalable impact, I empower students to move from ideas to implementation, reinforcing my commitment to impact-driven leadership and systems-level problem solving.
         </p>
       </div>
 
