@@ -120,6 +120,7 @@ permalink: /experience/
    <!-- Slide 2 -->
    <div class="min-w-full md:min-w-1/2 px-2" data-slide>
           <div class="bg-white rounded-2xl p-6 border border-slate-200 shadow-sm h-full">
+             <img src="{{ '/static/hult/winnercircle.jpg' | relative_url }}" class="rounded-lg mb-4" alt="Hult Prize Competition">
             <h3 class="text-xl font-semibold text-teal-600">Campus Director — Hult Prize Competition</h3>
             <p class="text-sm text-slate-500 mb-3">Leadership · Entrepreneurship · Social Impact</p>
             <ul class="list-disc list-inside text-slate-700 space-y-2">
